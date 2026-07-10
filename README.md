@@ -51,7 +51,7 @@ Core object-oriented programming concepts implemented in Java — covering class
 
 ### Data-Visualisation
 
-<img align="right" src="C:\Users\giree\OneDrive\Pictures\Screenshots\Screenshot 2026-07-10 183751.png" />
+<img align="right" src="Screenshot 2026-07-10 183751.png" />
 
 A collection of data visualisation exercises and notebooks exploring how to represent and interpret data visually.
 
