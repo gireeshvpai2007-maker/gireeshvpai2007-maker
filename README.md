@@ -86,8 +86,9 @@ A collection of data visualisation exercises and notebooks exploring how to repr
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=gireeshvpai2007-maker&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=gireeshvpai2007-maker&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9" width="48%" />
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9" width="48%" />
 
 <img src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=nord&border=7dd3fc&ring=7dd3fc&fire=7dd3fc" width="70%" />
 
