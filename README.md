@@ -36,7 +36,7 @@ const gireesh = {
 
 ### OOP-Implementation
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=OOP-Implementation&theme=nord&border_color=7dd3fc&title_color=7dd3fc" />
+
 
 Core object-oriented programming concepts implemented in Java — covering class design, inheritance, polymorphism, and encapsulation principles.
 
@@ -51,7 +51,7 @@ Core object-oriented programming concepts implemented in Java — covering class
 
 ### Data-Visualisation
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=Data-Visualisation&theme=nord&border_color=7dd3fc&title_color=7dd3fc" />
+<img align="right" src="C:\Users\giree\OneDrive\Pictures\Screenshots\Screenshot 2026-07-10 183751.png" />
 
 A collection of data visualisation exercises and notebooks exploring how to represent and interpret data visually.
 
