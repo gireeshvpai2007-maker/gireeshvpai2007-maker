@@ -25,7 +25,8 @@ const gireesh = {
   focusAreas: ["Data Structures & Algorithms", "OOP Design", "Data Visualisation", "AI/ML"],
   launchedProjects: ["OOP-Implementation", "Data-Visualisation"],
   status: "Sharpening DSA + building AI/ML foundations",
-  openTo: "Learning opportunities & collaborative projects"
+  openTo: "Learning opportunities & collaborative projects",
+  goal: "Passionate about building scalable software and AI-powered applications while continuously improving my problem-solving skills."
 };
 ```
 
