@@ -90,7 +90,7 @@ A collection of data visualisation exercises and notebooks exploring how to repr
 
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9" width="48%" />
 
-[<img https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&cache_seconds=0](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&cache_seconds=0)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gireeshvpai2007-maker&theme=nord&v=2" width="98%" />
 
 </div>
 
