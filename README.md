@@ -182,8 +182,6 @@ public:
 
 ## 🌳 Data Structures & Algorithms
 
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/DataStructures/main/assets/binary-tree.png" width="100%"/>
-
 A growing collection of interview-ready Data Structures and Algorithms implemented in modern **C++**.
 
 ### Highlights
@@ -207,8 +205,6 @@ https://github.com/gireeshvpai2007-maker/DataStructures
 <td width="50%" valign="top">
 
 ## ☕ Java OOP Implementation
-
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/OOP-Implementation/main/assets/oop.png" width="100%"/>
 
 Practical implementation of Object-Oriented Programming concepts using Java.
 
