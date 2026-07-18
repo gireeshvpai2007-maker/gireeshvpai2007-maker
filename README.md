@@ -173,43 +173,35 @@ public:
 ---
 
 > *"Code. Learn. Build. Repeat."*
-# 🌟 Featured Projects
+## 🌳 Data Structures
 
-<div align="center">
+**Language:** C++
 
-<a href="https://github.com/gireeshvpai2007-maker/DataStructures">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=DataStructures&theme=github_dark&border_color=7DD3FC"/>
-</a>
+Interview-ready implementations of Data Structures & Algorithms.
 
-<a href="https://github.com/gireeshvpai2007-maker/OOP-Implementation">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=OOP-Implementation&theme=github_dark&border_color=7DD3FC"/>
-</a>
+🔗 https://github.com/gireeshvpai2007-maker/DataStructures
 
-<a href="https://github.com/gireeshvpai2007-maker/Data-Visualisation">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=Data-Visualisation&theme=github_dark&border_color=7DD3FC"/>
-</a>
+---
 
-<a href="https://github.com/gireeshvpai2007-maker/FreeCodeCamp">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=FreeCodeCamp&theme=github_dark&border_color=7DD3FC"/>
-</a>
+## ☕ OOP Implementation
 
-</div>
+**Language:** Java
 
-## 📊 Data Visualisation Preview
+Java implementations of OOP concepts.
 
-<img align="right" width="420" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
+🔗 https://github.com/gireeshvpai2007-maker/OOP-Implementation
 
-This repository contains exploratory data analysis and visualisation notebooks built using:
+---
 
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
+## 📊 Data Visualisation
 
-The project explores real-world datasets and presents insights through clear visualisations.
+<img align="right" width="400" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
+
+Python notebooks for data analysis and visualisation.
+
+🔗 https://github.com/gireeshvpai2007-maker/Data-Visualisation
 
 <br clear="right"/>
-
 ## 🌐 freeCodeCamp Projects
 
 Projects built while completing Responsive Web Design and JavaScript courses.
