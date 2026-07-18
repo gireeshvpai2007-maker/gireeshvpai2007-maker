@@ -172,56 +172,251 @@ public:
 ---
 
 > *"Code. Learn. Build. Repeat."*
+# 🌟 Featured Projects
 
-## 🚀 Featured Projects
+<table>
+<tr>
+<td width="50%">
 
-### OOP-Implementation
+## 🌳 Data Structures & Algorithms
 
+A growing collection of carefully implemented Data Structures and Algorithms in **C++**, focusing on writing clean, optimized, and interview-ready solutions.
 
+### Topics Covered
 
-Core object-oriented programming concepts implemented in Java — covering class design, inheritance, polymorphism, and encapsulation principles.
+- ✅ Arrays
+- ✅ Strings
+- ✅ Two Pointers
+- ✅ Sliding Window
+- ✅ Binary Search
+- ✅ Linked Lists
+- 🔄 Trees
+- ⏳ Graphs
+- ⏳ Dynamic Programming
 
-| Layer | Technology |
-|-------|-----------|
-| Language | Java |
-| Paradigm | Object-Oriented Programming |
+**Tech Stack**
 
-🔗 [Code](https://github.com/gireeshvpai2007-maker/OOP-Implementation)
+`C++` • `STL` • `Algorithms`
 
-<br clear="right"/>
+**Repository**
 
-### Data-Visualisation
+🔗 https://github.com/gireeshvpai2007-maker/DataStructures
 
-<img align="right" width="350" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
+</td>
 
-A collection of data visualisation exercises and notebooks exploring how to represent and interpret data visually.
+<td width="50%">
 
-| Layer | Technology |
-|-------|-----------|
-| Environment | Jupyter Notebook |
-| Focus | Data Visualisation |
+## ☕ Java OOP Implementation
 
-🔗 [Code](https://github.com/gireeshvpai2007-maker/Data-Visualisation)
+A Java repository demonstrating core Object-Oriented Programming concepts through practical implementations.
 
-<br clear="right"/>
+### Concepts
 
-<br/>
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Interfaces
+- Exception Handling
 
-## 🛠️ Tech Stack
+**Tech Stack**
 
-**Languages**
+`Java`
 
-<img src="https://skillicons.dev/icons?i=java,cpp,py,js,html" />
+**Repository**
 
-**AI / Data**
+🔗 https://github.com/gireeshvpai2007-maker/OOP-Implementation
 
-<img src="https://skillicons.dev/icons?i=py,jupyter" />
+</td>
 
-**Dev Tools**
+</tr>
+</table>
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+---
 
-<br/>
+<table>
+
+<tr>
+
+<td width="50%">
+
+## 📊 Data Visualization
+
+Python notebooks exploring datasets through visual storytelling and exploratory data analysis.
+
+### Tools
+
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+**Repository**
+
+🔗 https://github.com/gireeshvpai2007-maker/Data-Visualisation
+
+</td>
+
+<td width="50%">
+
+## 🌐 freeCodeCamp Projects
+
+Projects built while completing Responsive Web Design and JavaScript courses.
+
+### Skills
+
+- HTML
+- CSS
+- Responsive Design
+- JavaScript
+
+**Repository**
+
+🔗 https://github.com/gireeshvpai2007-maker/FreeCodeCamp
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 📌 Featured Repository
+
+<div align="center">
+
+## 🌳 Data Structures & Algorithms
+
+Building an interview-ready repository containing optimized implementations of fundamental data structures and algorithms.
+
+</div>
+
+```text
+📂 DataStructures
+
+├── Arrays
+
+├── Strings
+
+├── Two Pointers
+
+├── Binary Search
+
+├── Linked List
+
+├── Stack
+
+├── Queue
+
+├── Trees
+
+├── BST
+
+├── Heap
+
+├── Graphs
+
+└── Dynamic Programming
+```
+
+---
+
+# 🚀 What I'm Working On
+
+### 📚 Learning
+
+- 🌳 Trees
+- 🌲 Binary Search Trees
+- 📈 Graph Algorithms
+- ⚡ Dynamic Programming
+
+---
+
+### 💻 Web Development
+
+- React
+- Node.js
+- Express
+- MongoDB
+
+---
+
+### 🤖 Artificial Intelligence
+
+- Machine Learning Basics
+
+- AI Integration in Web Applications
+
+- Data Analysis
+
+---
+
+# 🏆 Highlights
+
+🏅 MIT Manipal Computer Science Student
+
+💻 Passionate about Software Engineering
+
+🌳 Consistently practicing DSA
+
+☕ Strong Object-Oriented Programming foundation
+
+📊 Hands-on experience with Data Visualization
+
+🚀 Building modern Full Stack applications
+
+---
+
+# 🎯 2026 Roadmap
+
+```text
+☑ Java
+
+☑ C++
+
+☑ Python
+
+☑ HTML
+
+☑ CSS
+
+☑ JavaScript
+
+☑ OOP
+
+☑ Data Visualization
+
+🔄 Trees
+
+🔄 Binary Search Trees
+
+🔄 Graphs
+
+⬜ Dynamic Programming
+
+⬜ React
+
+⬜ Node.js
+
+⬜ MongoDB
+
+⬜ Full Stack Project
+
+⬜ Three.js
+
+⬜ AI Project
+
+⬜ Open Source
+
+⬜ Internship
+```
+
+---
+
+# 📅 Current Mission
+
+> Build a strong Software Engineering foundation through consistent DSA practice, modern web development, and real-world projects while continuously learning new technologies.
 
 ## 📊 GitHub Stats
 
