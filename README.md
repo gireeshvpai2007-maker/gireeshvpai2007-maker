@@ -2,10 +2,11 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20|%20Aspiring%20Software%20Engineer&descAlignY=60&descSize=18"/>
 
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+Software+That+Matters;Java+%7C+C%2B%2B+%7C+Python;Learning+React+%7C+Node.js+%7C+AI;Data+Structures+%26+Algorithms;Always+Learning+Something+New+🚀"/>
-</a>
+<div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+Software+That+Matters;Java+%7C+C%2B%2B+%7C+Python;Learning+React+%7C+Node.js+%7C+AI;Data+Structures+%26+Algorithms;Always+Learning+Something+New" />
+
+</div>
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0EA5E9"/>
@@ -242,22 +243,22 @@ A Java repository demonstrating core Object-Oriented Programming concepts throug
 
 ## 📊 Data Visualization
 
-Python notebooks exploring datasets through visual storytelling and exploratory data analysis.
+<img align="right" width="380" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
 
-### Tools
+A collection of Python notebooks focused on transforming raw datasets into meaningful visual insights.
+
+### Technologies
 
 - Pandas
 - NumPy
 - Matplotlib
 - Jupyter Notebook
 
-**Repository**
+### Repository
 
 🔗 https://github.com/gireeshvpai2007-maker/Data-Visualisation
 
-</td>
-
-<td width="50%">
+<br clear="right"/>
 
 ## 🌐 freeCodeCamp Projects
 
