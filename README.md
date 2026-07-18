@@ -175,88 +175,38 @@ public:
 > *"Code. Learn. Build. Repeat."*
 # 🌟 Featured Projects
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-## 🌳 Data Structures & Algorithms
+<a href="https://github.com/gireeshvpai2007-maker/DataStructures">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=DataStructures&theme=github_dark&border_color=7DD3FC"/>
+</a>
 
-A growing collection of carefully implemented Data Structures and Algorithms in **C++**, focusing on writing clean, optimized, and interview-ready solutions.
+<a href="https://github.com/gireeshvpai2007-maker/OOP-Implementation">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=OOP-Implementation&theme=github_dark&border_color=7DD3FC"/>
+</a>
 
-### Topics Covered
+<a href="https://github.com/gireeshvpai2007-maker/Data-Visualisation">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=Data-Visualisation&theme=github_dark&border_color=7DD3FC"/>
+</a>
 
-- ✅ Arrays
-- ✅ Strings
-- ✅ Two Pointers
-- ✅ Sliding Window
-- ✅ Binary Search
-- ✅ Linked Lists
-- 🔄 Trees
-- ⏳ Graphs
-- ⏳ Dynamic Programming
+<a href="https://github.com/gireeshvpai2007-maker/FreeCodeCamp">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gireeshvpai2007-maker&repo=FreeCodeCamp&theme=github_dark&border_color=7DD3FC"/>
+</a>
 
-**Tech Stack**
+</div>
 
-`C++` • `STL` • `Algorithms`
+## 📊 Data Visualisation Preview
 
-**Repository**
+<img align="right" width="420" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
 
-🔗 https://github.com/gireeshvpai2007-maker/DataStructures
-
-</td>
-
-<td width="50%">
-
-## ☕ Java OOP Implementation
-
-A Java repository demonstrating core Object-Oriented Programming concepts through practical implementations.
-
-### Concepts
-
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Abstraction
-- Interfaces
-- Exception Handling
-
-**Tech Stack**
-
-`Java`
-
-**Repository**
-
-🔗 https://github.com/gireeshvpai2007-maker/OOP-Implementation
-
-</td>
-
-</tr>
-</table>
-
----
-
-<table>
-
-<tr>
-
-<td width="50%">
-
-## 📊 Data Visualization
-
-<img align="right" width="380" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
-
-A collection of Python notebooks focused on transforming raw datasets into meaningful visual insights.
-
-### Technologies
+This repository contains exploratory data analysis and visualisation notebooks built using:
 
 - Pandas
 - NumPy
 - Matplotlib
 - Jupyter Notebook
 
-### Repository
-
-🔗 https://github.com/gireeshvpai2007-maker/Data-Visualisation
+The project explores real-world datasets and presents insights through clear visualisations.
 
 <br clear="right"/>
 
