@@ -245,13 +245,14 @@ https://github.com/gireeshvpai2007-maker/OOP-Implementation
 
 Python notebooks exploring real-world datasets through meaningful visualizations.
 
-### Tools Used
+### Libraries Used
 
-- 📈 Matplotlib
-- 📊 Pandas
-- 🔢 NumPy
-- 📒 Jupyter Notebook
-
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![WordCloud](https://img.shields.io/badge/WordCloud-2E8B57?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 **Tech Stack**
 
 <img src="https://skillicons.dev/icons?i=python,jupyter"/>
