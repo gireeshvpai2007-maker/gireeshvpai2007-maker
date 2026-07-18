@@ -173,45 +173,123 @@ public:
 ---
 
 > *"Code. Learn. Build. Repeat."*
-🌳 Data Structures
+# 🚀 Featured Projects
 
-Interview-ready implementations of DSA in C++.
+<table>
+<tr>
 
-Tech
+<td width="50%" valign="top">
 
-C++ STL
+## 🌳 Data Structures & Algorithms
 
-<a href="https://github.com/gireeshvpai2007-maker/DataStructures"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a>
-☕ OOP Implementation
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/DataStructures/main/assets/binary-tree.png" width="100%"/>
 
-Java implementations of OOP concepts.
+A growing collection of interview-ready Data Structures and Algorithms implemented in modern **C++**.
 
-Tech
+### Highlights
+- ✅ Arrays
+- ✅ Strings
+- ✅ Linked Lists
+- ✅ Trees
+- ✅ Graphs *(Coming Soon)*
+- ✅ Dynamic Programming *(Coming Soon)*
 
-Java
+**Tech Stack**
 
-<a href="https://github.com/gireeshvpai2007-maker/OOP-Implementation"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a>
-📊 Data Visualisation
-<img align="right" width="330" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
+<img src="https://skillicons.dev/icons?i=cpp"/>
 
-Python notebooks exploring datasets using:
+🔗 **Repository**
 
-Pandas
-NumPy
-Matplotlib
-Jupyter Notebook
-<a href="https://github.com/gireeshvpai2007-maker/Data-Visualisation"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a> <br clear="right"/>
-🌐 freeCodeCamp
+https://github.com/gireeshvpai2007-maker/DataStructures
 
-Projects built while completing Responsive Web Design & JavaScript.
+</td>
 
-Skills
+<td width="50%" valign="top">
 
-HTML
-CSS
-JavaScript
-Responsive Design
-<a href="https://github.com/gireeshvpai2007-maker/FreeCodeCamp"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a>
+## ☕ Java OOP Implementation
+
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/OOP-Implementation/main/assets/oop.png" width="100%"/>
+
+Practical implementation of Object-Oriented Programming concepts using Java.
+
+### Concepts Covered
+
+- ✅ Classes & Objects
+- ✅ Constructors
+- ✅ Inheritance
+- ✅ Polymorphism
+- ✅ Abstraction
+- ✅ Encapsulation
+- ✅ Interfaces
+- ✅ Exception Handling
+
+**Tech Stack**
+
+<img src="https://skillicons.dev/icons?i=java"/>
+
+🔗 **Repository**
+
+https://github.com/gireeshvpai2007-maker/OOP-Implementation
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+## 📊 Data Visualisation
+
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png" width="100%"/>
+
+Python notebooks exploring real-world datasets through meaningful visualizations.
+
+### Tools Used
+
+- 📈 Matplotlib
+- 📊 Pandas
+- 🔢 NumPy
+- 📒 Jupyter Notebook
+
+**Tech Stack**
+
+<img src="https://skillicons.dev/icons?i=python,jupyter"/>
+
+🔗 **Repository**
+
+https://github.com/gireeshvpai2007-maker/Data-Visualisation
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🌐 freeCodeCamp Projects
+
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/FreeCodeCamp/main/assets/fcc.png" width="100%"/>
+
+Projects developed while completing the Responsive Web Design and JavaScript curriculum.
+
+### Skills Demonstrated
+
+- 🌐 HTML5
+- 🎨 CSS3
+- ⚡ JavaScript
+- 📱 Responsive Design
+- 💡 DOM Manipulation
+
+**Tech Stack**
+
+<img src="https://skillicons.dev/icons?i=html,css,js"/>
+
+🔗 **Repository**
+
+https://github.com/gireeshvpai2007-maker/FreeCodeCamp
+
+</td>
+
+</tr>
+</table>
 
 # 📌 Featured Repository
 
