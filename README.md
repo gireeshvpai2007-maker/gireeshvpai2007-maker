@@ -1,106 +1,107 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=55&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20|%20Aspiring%20Software%20Engineer&descAlignY=60"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20|%20Aspiring%20Software%20Engineer&descAlignY=60&descSize=18"/>
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+Software+That+Solves+Real+Problems;Learning+Data+Structures+%26+Algorithms;Exploring+Full+Stack+Development;AI+Enthusiast+%7C+Java+%7C+C%2B%2B+%7C+Python;Always+Learning+Something+New+%F0%9F%9A%80"/>
-
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+Software+That+Matters;Java+%7C+C%2B%2B+%7C+Python;Learning+React+%7C+Node.js+%7C+AI;Data+Structures+%26+Algorithms;Always+Learning+Something+New+🚀"/>
 </a>
 
-<br>
+<br><br>
 
-<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0ea5e9"/>
+<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0EA5E9"/>
 
-<img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=0ea5e9"/>
+<img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=0EA5E9"/>
 
-<img src="https://img.shields.io/github/stars/gireeshvpai2007-maker?affiliations=OWNER&style=for-the-badge&color=0ea5e9"/>
+<img src="https://img.shields.io/github/stars/gireeshvpai2007-maker?affiliations=OWNER&style=for-the-badge&color=0EA5E9"/>
 
 </div>
 
 ---
 
-# 👋 Hello World!
+# 👋 Hello, I'm Gireesh
 
 ```cpp
 class Gireesh {
 
 public:
 
+    string role = "Software Engineer in Progress";
+
     string university = "MIT Manipal";
 
-    string degree = "B.Tech CSE";
-
-    string role = "Aspiring Software Engineer";
+    string degree = "B.Tech Computer Science";
 
     vector<string> languages = {
+
         "Java",
+
         "C++",
+
         "Python",
+
         "JavaScript",
-        "HTML",
-        "CSS",
+
         "SQL"
+
     };
 
     vector<string> interests = {
 
-        "Data Structures & Algorithms",
-
-        "Full Stack Development",
-
         "Software Engineering",
 
-        "Artificial Intelligence"
+        "Data Structures",
+
+        "Artificial Intelligence",
+
+        "Full Stack Development"
 
     };
 
-    string currentMission =
-    "Build impactful software while becoming a better engineer every day.";
+    string mission =
+    "Build software that solves real-world problems.";
 
 };
 ```
 
 ---
 
-# 🚀 About Me
+# 💡 About Me
 
-🎓 B.Tech Computer Science Student at **MIT Manipal**
+🎓 Computer Science student at **MIT Manipal**
 
-💻 Passionate about Software Engineering and Problem Solving
+💻 Passionate about Software Engineering
 
-🌳 Currently mastering Data Structures & Algorithms
+🌳 Solving Data Structures & Algorithms consistently
 
-🌐 Learning React, Node.js and modern web technologies
+⚛️ Currently learning **React** and **Node.js**
 
-🤖 Exploring Artificial Intelligence and Machine Learning
+🤖 Exploring Artificial Intelligence & Machine Learning
 
-📚 I believe in learning by building projects
-
-🚀 Goal: Build scalable software that creates real-world impact.
+🚀 Building projects while continuously improving problem-solving skills
 
 ---
 
-# 🧠 Currently Learning
+# 🚀 Current Focus
 
 ```text
-██████████████████░░░░  Java
+🌳 Data Structures & Algorithms
 
-█████████████████░░░░░  C++
+⚛ React.js
 
-██████████████░░░░░░░░  DSA
+🚀 Node.js
 
-████████████░░░░░░░░░░ React
+🤖 AI / Machine Learning
 
-█████████░░░░░░░░░░░░░ Node.js
+🌐 Three.js
 
-██████░░░░░░░░░░░░░░░░ AI / ML
+☁ Cloud Computing
 ```
 
 ---
 
-# 💻 Tech Stack
+# 🛠 Tech Stack
 
-## 🚀 Languages
+## 💻 Languages
 
 <p>
 
@@ -110,7 +111,7 @@ public:
 
 ---
 
-## 🌐 Frontend
+## ⚛ Frontend
 
 <p>
 
@@ -130,7 +131,7 @@ public:
 
 ---
 
-## 🤖 AI & Data
+## 🤖 AI / Data
 
 <p>
 
@@ -140,7 +141,7 @@ public:
 
 ---
 
-## 🛠 Tools
+## 🛠 Developer Tools
 
 <p>
 
@@ -150,31 +151,27 @@ public:
 
 ---
 
-# 📈 Coding Journey
+# 📈 Learning Progress
 
 ```text
-2025
+████████████████████░ Java
 
-███████████████████░  Java
+███████████████████░ C++
 
-███████████████████░  OOP
+██████████████████░░ Python
 
-██████████████████░░  Python
+████████████████░░░░ DSA
 
-████████████████░░░░  Data Visualisation
+████████████░░░░░░░░ React
 
-2026
+█████████░░░░░░░░░░░ Node.js
 
-██████████████░░░░░░  DSA
-
-███████████░░░░░░░░░  React
-
-████████░░░░░░░░░░░░ Node.js
-
-██████░░░░░░░░░░░░░░ AI Integration
+██████░░░░░░░░░░░░░░ AI / ML
 ```
 
 ---
+
+> *"Code. Learn. Build. Repeat."*
 
 ## 🚀 Featured Projects
 
