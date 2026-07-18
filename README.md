@@ -429,45 +429,40 @@ Building an interview-ready repository containing optimized implementations of f
 
 > Build a strong Software Engineering foundation through consistent DSA practice, modern web development, and real-world projects while continuously learning new technologies.
 
-## 📊 GitHub Stats
+# 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=gireeshvpai2007-maker&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9" width="48%" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=gireeshvpai2007-maker&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9" width="48%" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=tokyonight&hide_border=true"/>
 
-<img src="https://streak-stats.demolab.com/?user=gireeshvpai2007-maker&theme=nord&border=7DD3FC&ring=7DD3FC&fire=7DD3FC&currStreakLabel=7DD3FC&cache_seconds=0" width="98%" />
+<br><br>
+
+<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true"/>
+
+<br><br>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=gireeshvpai2007-maker&theme=tokyo-night&hide_border=true&area=true"/>
+
 </div>
 
-<br/>
-
-## 🏆 Trophies
+---
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=gireeshvpai2007-maker&no-frame=true&no-bg=true&theme=nord" />
+
+## 🏆 GitHub Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=gireeshvpai2007-maker&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&row=2&column=4"/>
+
 </div>
 
-<br/>
-
-## 📈 Contribution Graph
+---
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gireeshvpai2007-maker&theme=react-dark&color=7dd3fc&line=7dd3fc&point=ffffff" width="90%" />
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:7dd3fc&height=120&section=footer" width="100%"/>
 
 ## 🐍 Contribution Snake
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"/>
 
 </div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:7dd3fc&height=120&section=footer" width="100%"/>
