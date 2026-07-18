@@ -1,36 +1,180 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:0ea5e9&height=200&section=header&text=Gireesh&fontSize=60&animation=twinkling&fontColor=ffffff&desc=CSE%20Student%20@%20MIT%20Manipal%20%7C%20Aspiring%20SDE&descAlignY=60&descSize=20" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=55&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20|%20Aspiring%20Software%20Engineer&descAlignY=60"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7DD3FC&center=true&vCenter=true&width=600&lines=Building+in+Java+%26+C%2B%2B;Learning+Python+for+AI%2FML;Solving+DSA+on+LeetCode;Exploring+Data+Visualisation" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+Software+That+Solves+Real+Problems;Learning+Data+Structures+%26+Algorithms;Exploring+Full+Stack+Development;AI+Enthusiast+%7C+Java+%7C+C%2B%2B+%7C+Python;Always+Learning+Something+New+%F0%9F%9A%80"/>
+
 </a>
 
-<br/>
+<br>
 
-<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&color=7dd3fc&style=flat-square&label=Profile+Views" />
-<img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?label=Followers&style=flat-square&color=7dd3fc" />
+<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0ea5e9"/>
+
+<img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=0ea5e9"/>
+
+<img src="https://img.shields.io/github/stars/gireeshvpai2007-maker?affiliations=OWNER&style=for-the-badge&color=0ea5e9"/>
 
 </div>
 
-<br/>
+---
 
-## 🎯 Who I Am
+# 👋 Hello World!
 
-```typescript
-const gireesh = {
-  title: "CSE Student @ MIT Manipal | Aspiring AI Engineer",
-  year: "2nd Year, B.Tech CSE",
-  stack: ["Java", "C++", "Python", "JavaScript", "HTML"],
-  focusAreas: ["Data Structures & Algorithms", "OOP Design", "Data Visualisation", "AI/ML"],
-  launchedProjects: ["OOP-Implementation", "Data-Visualisation"],
-  status: "Sharpening DSA + building AI/ML foundations",
-  openTo: "Learning opportunities & collaborative projects",
-  goal: "Passionate about building scalable software and AI-powered applications while continuously improving my problem-solving skills."
+```cpp
+class Gireesh {
+
+public:
+
+    string university = "MIT Manipal";
+
+    string degree = "B.Tech CSE";
+
+    string role = "Aspiring Software Engineer";
+
+    vector<string> languages = {
+        "Java",
+        "C++",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL"
+    };
+
+    vector<string> interests = {
+
+        "Data Structures & Algorithms",
+
+        "Full Stack Development",
+
+        "Software Engineering",
+
+        "Artificial Intelligence"
+
+    };
+
+    string currentMission =
+    "Build impactful software while becoming a better engineer every day.";
+
 };
 ```
 
-<br/>
+---
+
+# 🚀 About Me
+
+🎓 B.Tech Computer Science Student at **MIT Manipal**
+
+💻 Passionate about Software Engineering and Problem Solving
+
+🌳 Currently mastering Data Structures & Algorithms
+
+🌐 Learning React, Node.js and modern web technologies
+
+🤖 Exploring Artificial Intelligence and Machine Learning
+
+📚 I believe in learning by building projects
+
+🚀 Goal: Build scalable software that creates real-world impact.
+
+---
+
+# 🧠 Currently Learning
+
+```text
+██████████████████░░░░  Java
+
+█████████████████░░░░░  C++
+
+██████████████░░░░░░░░  DSA
+
+████████████░░░░░░░░░░ React
+
+█████████░░░░░░░░░░░░░ Node.js
+
+██████░░░░░░░░░░░░░░░░ AI / ML
+```
+
+---
+
+# 💻 Tech Stack
+
+## 🚀 Languages
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=java,cpp,py,js,html,css,mysql"/>
+
+</p>
+
+---
+
+## 🌐 Frontend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind"/>
+
+</p>
+
+---
+
+## ⚙ Backend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express"/>
+
+</p>
+
+---
+
+## 🤖 AI & Data
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=python,jupyter"/>
+
+</p>
+
+---
+
+## 🛠 Tools
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux"/>
+
+</p>
+
+---
+
+# 📈 Coding Journey
+
+```text
+2025
+
+███████████████████░  Java
+
+███████████████████░  OOP
+
+██████████████████░░  Python
+
+████████████████░░░░  Data Visualisation
+
+2026
+
+██████████████░░░░░░  DSA
+
+███████████░░░░░░░░░  React
+
+████████░░░░░░░░░░░░ Node.js
+
+██████░░░░░░░░░░░░░░ AI Integration
+```
+
+---
 
 ## 🚀 Featured Projects
 
