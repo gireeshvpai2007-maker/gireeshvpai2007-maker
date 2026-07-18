@@ -449,29 +449,37 @@ Building an interview-ready repository containing optimized implementations of f
 
 ---
 
-<div align="center">
-
 ## 🏆 GitHub Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=gireeshvpai2007-maker&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&row=2&column=4"/>
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=gireeshvpai2007-maker&theme=algolia&no-frame=true&no-bg=true&row=2&column=4&margin-w=15&margin-h=15"/>
 
 </div>
 
 ---
 
-<div align="center">
-
----
-
-# 🐍 Contribution Snake
+# 🐍 Contribution Journey
 
 <div align="center">
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gireeshvpai2007-maker&theme=tokyonight"/>
+
+<br><br>
 
 <p>
-<i>Every green square represents consistency. Small commits every day lead to big progress.</i>
+<i>Consistency is the foundation of mastery. Every contribution is a step forward.</i>
 </p>
 
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake"
+       src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"
+       width="95%">
+</picture>
 
 </div>
 
