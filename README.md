@@ -453,7 +453,7 @@ Building an interview-ready repository containing optimized implementations of f
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=gireeshvpai2007-maker&theme=algolia&no-frame=true&no-bg=true&row=2&column=4&margin-w=15&margin-h=15"/>
+<img src="https://github-profile-trophy.vercel.app/?username=gireeshvpai2007-maker&theme=onedark&no-frame=true&margin-w=15" />
 
 </div>
 
