@@ -433,11 +433,11 @@ Building an interview-ready repository containing optimized implementations of f
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=gireeshvpai2007-maker&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=gireeshvpai2007-maker&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=tokyonight&hide_border=true"/>
 
-<br><br>
+</div>
 
 <img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true"/>
 
