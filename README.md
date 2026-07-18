@@ -264,8 +264,6 @@ https://github.com/gireeshvpai2007-maker/Data-Visualisation
 
 ## 🌐 freeCodeCamp Projects
 
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/FreeCodeCamp/main/assets/fcc.png" width="100%"/>
-
 Projects developed while completing the Responsive Web Design and JavaScript curriculum.
 
 ### Skills Demonstrated
