@@ -173,57 +173,45 @@ public:
 ---
 
 > *"Code. Learn. Build. Repeat."*
-## 🌳 Data Structures
+🌳 Data Structures
 
-**Language:** C++
+Interview-ready implementations of DSA in C++.
 
-Interview-ready implementations of Data Structures & Algorithms.
+Tech
 
-🔗 https://github.com/gireeshvpai2007-maker/DataStructures
+C++ STL
 
----
-
-## ☕ OOP Implementation
-
-**Language:** Java
+<a href="https://github.com/gireeshvpai2007-maker/DataStructures"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a>
+☕ OOP Implementation
 
 Java implementations of OOP concepts.
 
-🔗 https://github.com/gireeshvpai2007-maker/OOP-Implementation
+Tech
 
----
+Java
 
-## 📊 Data Visualisation
+<a href="https://github.com/gireeshvpai2007-maker/OOP-Implementation"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a>
+📊 Data Visualisation
+<img align="right" width="330" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
 
-<img align="right" width="400" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png"/>
+Python notebooks exploring datasets using:
 
-Python notebooks for data analysis and visualisation.
+Pandas
+NumPy
+Matplotlib
+Jupyter Notebook
+<a href="https://github.com/gireeshvpai2007-maker/Data-Visualisation"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a> <br clear="right"/>
+🌐 freeCodeCamp
 
-🔗 https://github.com/gireeshvpai2007-maker/Data-Visualisation
+Projects built while completing Responsive Web Design & JavaScript.
 
-<br clear="right"/>
-## 🌐 freeCodeCamp Projects
+Skills
 
-Projects built while completing Responsive Web Design and JavaScript courses.
-
-### Skills
-
-- HTML
-- CSS
-- Responsive Design
-- JavaScript
-
-**Repository**
-
-🔗 https://github.com/gireeshvpai2007-maker/FreeCodeCamp
-
-</td>
-
-</tr>
-
-</table>
-
----
+HTML
+CSS
+JavaScript
+Responsive Design
+<a href="https://github.com/gireeshvpai2007-maker/FreeCodeCamp"> <img src="https://img.shields.io/badge/Open_Repository-181717?style=for-the-badge&logo=github"/> </a>
 
 # 📌 Featured Repository
 
