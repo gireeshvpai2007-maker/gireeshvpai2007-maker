@@ -461,8 +461,18 @@ Building an interview-ready repository containing optimized implementations of f
 
 <div align="center">
 
-## 🐍 Contribution Snake
+---
 
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"/>
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<p>
+<i>Every green square represents consistency. Small commits every day lead to big progress.</i>
+</p>
+
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 
 </div>
+
+---
