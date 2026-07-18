@@ -252,7 +252,8 @@ Python notebooks exploring real-world datasets through meaningful visualizations
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 ![WordCloud](https://img.shields.io/badge/WordCloud-2E8B57?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)<br>
+
 **Tech Stack**
 
 <img src="https://skillicons.dev/icons?i=python,jupyter"/>
