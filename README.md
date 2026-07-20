@@ -423,24 +423,23 @@ Building an interview-ready repository containing optimized implementations of f
 
 > Build a strong Software Engineering foundation through consistent DSA practice, modern web development, and real-world projects while continuously learning new technologies.
 
-# 📊 GitHub Analytics
+### 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gireeshvpai2007-maker"/>
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=gireeshvpai2007-maker&show_icons=true&theme=tokyonight&hide_border=true"/>
+
 <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
 
-<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true"/>
+<br>
+
+<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true&cache_seconds=1800&v=3"/>
 
 <br><br>
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=gireeshvpai2007-maker&theme=tokyo-night&hide_border=true&area=true"/>
-
-</div>
-
----
 
 ## 🏆 GitHub Trophies
 
