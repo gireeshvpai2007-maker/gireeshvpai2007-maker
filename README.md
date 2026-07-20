@@ -427,7 +427,7 @@ Building an interview-ready repository containing optimized implementations of f
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true&v=2"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gireeshvpai2007-maker"/>
 <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
