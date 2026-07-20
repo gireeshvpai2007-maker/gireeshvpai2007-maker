@@ -434,9 +434,9 @@ Building an interview-ready repository containing optimized implementations of f
 
 <br>
 
-<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true"/>
+<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true&v=10"/>
 
-<br><br>
+<br>
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=gireeshvpai2007-maker&theme=tokyo-night&hide_border=true&area=true"/>
 
