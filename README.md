@@ -237,7 +237,7 @@ https://github.com/gireeshvpai2007-maker/OOP-Implementation
 
 ## 📊 Data Visualisation
 
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Screenshot%202026-07-10%20183751.png" width="100%"/>
+<img src="Emotion%20Analysis/image/WordCloud%20of%20Emotions.png" width="700"/>
 
 Python notebooks exploring real-world datasets through meaningful visualizations.
 
