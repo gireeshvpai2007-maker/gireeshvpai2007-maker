@@ -434,7 +434,7 @@ Building an interview-ready repository containing optimized implementations of f
 
 <br>
 
-<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true&cache_seconds=1800&v=3"/>
+<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true"/>
 
 <br><br>
 
