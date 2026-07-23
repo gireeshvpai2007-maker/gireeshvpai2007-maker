@@ -181,7 +181,7 @@ public:
 
 ## 🚌 Vishnu Tours & Travels
 
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website/main/assets/images/logo.png" width="700" alt="Vishnu Tours & Travels">
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website/main/assets/icon/favicon.png" width="700" alt="Vishnu Tours & Travels">
 
 A modern, responsive travel agency website built for a real family business with a premium UI, WhatsApp enquiry integration, call support, and online booking experience.
 
