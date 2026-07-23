@@ -177,7 +177,6 @@ public:
 
 <table>
 <tr>
-<td width="50%" valign="top">
     <td width="50%" valign="top">
 
 ## 🚌 Vishnu Tours & Travels
@@ -206,7 +205,6 @@ https://vishnutoursandtravels.netlify.app
 
 https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
 
-</td>
 </td>
 <td width="50%" valign="top">
 
