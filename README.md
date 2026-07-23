@@ -312,6 +312,33 @@ Projects developed while completing the Responsive Web Design and JavaScript cur
 https://github.com/gireeshvpai2007-maker/FreeCodeCamp
 
 </td>
+<td width="50%" valign="top">
+
+## 💻 LeetCode Solutions
+
+<img src="https://skillicons.dev/icons?i=cpp" width="80"/>
+
+A collection of LeetCode solutions with clean, optimized implementations focused on improving problem-solving skills and interview preparation.
+
+### Topics Covered
+
+- 🌳 Arrays
+- 🔍 Binary Search
+- 🔗 Linked Lists
+- 🌲 Trees
+- 📚 Stack & Queue
+- ⚡ Two Pointers
+- 🧠 Dynamic Programming *(Growing)*
+
+**Tech Stack**
+
+<img src="https://skillicons.dev/icons?i=cpp"/>
+
+🔗 **Repository**
+
+https://github.com/gireeshvpai2007-maker/LeetCode
+
+</td>
 
 </tr>
 </table>
