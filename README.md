@@ -177,7 +177,37 @@ public:
 
 <table>
 <tr>
+<td width="50%" valign="top">
+    <td width="50%" valign="top">
 
+## 🚌 Vishnu Tours & Travels
+
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website/main/assets/images/website-preview.png" width="700" alt="Vishnu Tours & Travels">
+
+A modern, responsive travel agency website built for a real family business with a premium UI, WhatsApp enquiry integration, call support, and online booking experience.
+
+### Features
+
+- 🌐 Fully Responsive Design
+- 📱 WhatsApp Integration
+- 📞 One-Click Call Support
+- 🎨 Premium UI/UX
+- 🚀 Deployed on Netlify
+
+**Tech Stack**
+
+<img src="https://skillicons.dev/icons?i=html,css,js"/>
+
+🌍 **Live Website**
+
+https://vishnutoursandtravels.netlify.app
+
+🔗 **Repository**
+
+https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
+
+</td>
+</td>
 <td width="50%" valign="top">
 
 ## 🌳 Data Structures & Algorithms
@@ -287,47 +317,21 @@ https://github.com/gireeshvpai2007-maker/FreeCodeCamp
 
 </tr>
 </table>
-
 # 📌 Featured Repository
 
 <div align="center">
 
-## 🌳 Data Structures & Algorithms
+## 🚌 Vishnu Tours & Travels
 
-Building an interview-ready repository containing optimized implementations of fundamental data structures and algorithms.
+Building a modern, production-ready travel agency website for a real family business with responsive design, WhatsApp integration, call support, and premium user experience.
+
+🌍 Live Demo:
+https://vishnutoursandtravels.netlify.app
+
+🔗 Repository:
+https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
 
 </div>
-
-```text
-📂 DataStructures
-
-├── Arrays
-
-├── Strings
-
-├── Two Pointers
-
-├── Binary Search
-
-├── Linked List
-
-├── Stack
-
-├── Queue
-
-├── Trees
-
-├── BST
-
-├── Heap
-
-├── Graphs
-
-└── Dynamic Programming
-```
-
----
-
 # 🚀 What I'm Working On
 
 ### 📚 Learning
