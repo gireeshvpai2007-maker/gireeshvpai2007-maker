@@ -199,7 +199,7 @@ A modern, responsive travel agency website built for a real family business with
 
 🌍 **Live Website**
 
-https://vishnutoursandtravels.netlify.app
+https://vishnu-tours-travels.netlify.app
 
 🔗 **Repository**
 
@@ -351,7 +351,7 @@ https://github.com/gireeshvpai2007-maker/LeetCode
 Building a modern, production-ready travel agency website for a real family business with responsive design, WhatsApp integration, call support, and premium user experience.
 
 🌍 Live Demo:
-https://vishnutoursandtravels.netlify.app
+https://vishnu-tours-travels.netlify.app
 
 🔗 Repository:
 https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
