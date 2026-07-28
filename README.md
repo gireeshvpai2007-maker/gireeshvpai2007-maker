@@ -464,7 +464,7 @@ https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
 
 <br>
 
-<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=github-dark"/>
+<img width="98%" src="https://streak-stats.demolab.com?user=gireeshvpai2007-maker&theme=tokyonight&v=1"/>
 
 <br>
 
