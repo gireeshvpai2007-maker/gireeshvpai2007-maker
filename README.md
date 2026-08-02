@@ -167,21 +167,6 @@ Projects completed through freeCodeCamp's Responsive Web Design and JavaScript c
 
 <br>
 
-<p align="center">
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gireeshvpai2007-maker&theme=tokyonight"/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gireeshvpai2007-maker&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gireeshvpai2007-maker&theme=tokyonight"/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gireeshvpai2007-maker&theme=tokyonight&utcOffset=5.5"/>
-
-</p>
 </div>
 
 ---
