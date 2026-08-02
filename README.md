@@ -169,6 +169,11 @@ Projects completed through freeCodeCamp's Responsive Web Design and JavaScript c
 
 </div>
 
+<div align="center">
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gireeshvpai2007-maker&theme=tokyonight"/>
+
+</div>
 ---
 
 <div align="center">
