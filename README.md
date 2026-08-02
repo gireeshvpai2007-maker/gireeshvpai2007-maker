@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="./assets/profile.png" width="160" style="border-radius:50%; border:3px solid #7DD3FC;" alt="Gireesh V Pai"/>
+<img src="./assets/particle-intro.gif" width="320" style="border-radius:50%;" alt="Gireesh V Pai"/>
 
 <br><br>
 
@@ -17,7 +17,7 @@
 
 <br><br>
 
-✨ **[View Interactive Intro →](https://gireeshvpai2007-maker.github.io/particle-intro)**
+✨ **[Try the interactive version →](https://gireeshvpai2007-maker.github.io/particle-intro)**
 
 </div>
 
