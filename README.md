@@ -1,26 +1,23 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=Software%20Engineer%20in%20Progress%20|%20MIT%20Manipal&descAlignY=60&descSize=18"/>
-
-<a href="https://gireeshvpai2007-maker.github.io/particle-intro">
-
-<img src="./assets/profile.png" width="330" alt="Interactive Portfolio"/>
-
-</a>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20|%20Aspiring%20Software%20Engineer&descAlignY=60&descSize=18"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&color=7DD3FC&center=true&vCenter=true&width=900&lines=Software+Engineering;Machine+Learning;Data+Structures+%26+Algorithms;Building+Real+Projects;Always+Learning"/>
+<img src="./assets/particle-intro.gif" width="320" style="border-radius:50%;" alt="Gireesh V Pai"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+Software+That+Matters;Java+%7C+C%2B%2B+%7C+Python;Data+Structures+%26+Algorithms;Always+Learning+Something+New" />
 
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0EA5E9"/>
-
 <img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=0EA5E9"/>
 
 <br><br>
 
-⭐ **Click the profile image to open my interactive portfolio**
+✨ **[Try the interactive version →](https://gireeshvpai2007-maker.github.io/particle-intro)**
 
 </div>
 
