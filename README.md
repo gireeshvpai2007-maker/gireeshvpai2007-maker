@@ -109,16 +109,23 @@ A responsive travel agency website built for a real family business — dark mod
 <tr>
 <td width="50%" valign="top">
 
-## 📊 Data Visualisation
+### 📊 Data Visualisation
 
-Python/Jupyter notebooks exploring real-world datasets through visualization — including sentiment/emotion analysis with word clouds.
+Python/Jupyter notebooks exploring real-world datasets through visualization.
+
+<p align="center">
+<img src="./assets/wordcloud.png" width="90%">
+</p>
+
+**Tech Stack**
 
 <img src="https://skillicons.dev/icons?i=python,jupyter"/>
 
-🔗 [Repository](https://github.com/gireeshvpai2007-maker/Data-Visualisation)
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
 
-</td>
-<td width="50%" valign="top">
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge">
 
 ## 🌐 freeCodeCamp Projects
 
