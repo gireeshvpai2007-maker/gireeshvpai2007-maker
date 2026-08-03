@@ -147,9 +147,11 @@ A responsive website built for a real travel agency business, with WhatsApp enqu
 
 Python/Jupyter notebooks exploring real-world datasets through visualization, including sentiment analysis with word clouds.
 
+
 <p align="center">
-<img src="Emotion Analysis/image/wordcloud.png" width="90%">
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Emotion%20Analysis/image/wordcloud.png" width="90%">
 </p>
+
 
 ### Highlights
 - Exploratory Data Analysis
