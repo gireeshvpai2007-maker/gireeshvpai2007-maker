@@ -21,8 +21,6 @@
 
 </div>
 
----
-
 # 👋 Hello, I'm Gireesh
 
 ```cpp
@@ -51,95 +49,173 @@ public:
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
-## ☕ StreamVault — Media Library & Watchlist System
+## ☕ StreamVault
 
-A Java console application demonstrating generics, the Stream API, and composition through a working media-recommendation engine. Tracks per-user watchlists, computes rating analytics, and generates personalized genre-based recommendations for multiple users.
+A Java application demonstrating Object-Oriented Programming through a working media library and recommendation system.
 
-**Concepts:** Generics · Inheritance · Polymorphism · Stream API · Enums · Composition · Factory/Registry pattern
+### Concepts
+- Generics
+- Stream API
+- Collections
+- Enums
+- Composition
+- Factory Pattern
 
 <img src="https://skillicons.dev/icons?i=java"/>
 
-🔗 [Repository](https://github.com/gireeshvpai2007-maker/OOP-Implementation)
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/OOP-Implementation
 
 </td>
+
 <td width="50%" valign="top">
 
 ## 💻 LeetCode Solutions
 
-An actively growing collection of LeetCode solutions in C++, focused on interview preparation and consistent daily practice.
+Daily LeetCode practice with clean, optimized C++ solutions and consistent GitHub commits.
 
-**Topics:** Arrays · Binary Search · Linked Lists · Trees · Stack & Queue · Two Pointers · DP *(growing)*
+### Topics
+- Binary Search
+- Trees
+- Stack
+- Queue
+- Arrays
+- Recursion
+- Two Pointers
 
 <img src="https://skillicons.dev/icons?i=cpp"/>
 
-🔗 [Repository](https://github.com/gireeshvpai2007-maker/LeetCode)
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/LeetCode
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
 ## 🌳 Data Structures & Algorithms
 
-A growing collection of interview-ready data structures implemented in modern C++.
+An interview-focused repository containing implementations and solutions in modern C++.
 
-**Highlights:** Arrays · Strings · Linked Lists · Trees · Graphs *(in progress)*
+### Covered
+- Arrays
+- Strings
+- Binary Search
+- Trees
+- Linked Lists
+- Recursion
+- Pattern Problems
 
 <img src="https://skillicons.dev/icons?i=cpp"/>
 
-🔗 [Repository](https://github.com/gireeshvpai2007-maker/DataStructures)
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/DataStructures
 
 </td>
+
 <td width="50%" valign="top">
 
 ## 🚌 Vishnu Tours & Travels
 
-A responsive travel agency website built for a real family business — dark mode, WhatsApp enquiry integration, and a clean booking-inquiry flow.
+A responsive website built for a real travel agency business, with WhatsApp enquiry integration and a modern UI.
 
-**Tech Stack:** HTML · CSS · JavaScript
+### Features
+- Responsive Design
+- Dark Mode
+- WhatsApp Enquiry
+- Contact Form
+- Modern UI
 
-🌍 [Live Site](https://vishnu-tours-travels.netlify.app) · 🔗 [Repository](https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website)
+<img src="https://skillicons.dev/icons?i=html,css,js"/>
+
+🌐 **Live:** https://vishnu-tours-travels.netlify.app
+
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
-### 📊 Data Visualisation
+## 📊 Data Visualisation
 
-Python/Jupyter notebooks exploring real-world datasets through visualization.
+Python/Jupyter notebooks exploring real-world datasets through visualization, including sentiment analysis with word clouds.
 
 <p align="center">
 <img src="./assets/wordcloud.png" width="90%">
 </p>
 
-**Tech Stack**
+### Highlights
+- Exploratory Data Analysis
+- Word Cloud Generation
+- Statistical Visualization
+- Data Cleaning
 
+<p>
 <img src="https://skillicons.dev/icons?i=python,jupyter"/>
+</p>
 
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+<p>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
+</p>
 
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/Data-Visualisation
 
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge">
+</td>
+
+<td width="50%" valign="top">
+
+## 🤖 InsightAI *(In Progress)*
+
+A business analytics tool that turns raw CSV datasets into visualizations and predictive insights using machine learning.
+
+### Features
+- Automated Data Visualization
+- ML-based Predictions
+- Interactive Dashboard
+
+<img src="https://skillicons.dev/icons?i=python,flask,pandas,numpy,sklearn,jupyter"/>
+
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/InsightAI
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
 
 ## 🌐 freeCodeCamp Projects
 
-Projects completed through freeCodeCamp's Responsive Web Design and JavaScript curriculum.
+Projects completed while earning Responsive Web Design and JavaScript certifications.
+
+### Includes
+- Responsive Websites
+- CSS Projects
+- JavaScript Challenges
 
 <img src="https://skillicons.dev/icons?i=html,css,js"/>
 
-🔗 [Repository](https://github.com/gireeshvpai2007-maker/FreeCodeCamp)
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/FreeCodeCamp
 
 </td>
-</tr>
-</table>
 
----
+<td width="50%" valign="top">
+
+</td>
+
+</tr>
+
+</table>
 
 # 🛠 Tech Stack
 
@@ -173,10 +249,6 @@ Projects completed through freeCodeCamp's Responsive Web Design and JavaScript c
 <br>
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=gireeshvpai2007-maker&theme=tokyo-night&hide_border=true&area=true"/>
-
-<br>
-
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gireeshvpai2007-maker&theme=tokyonight"/>
 
 </div>
 
