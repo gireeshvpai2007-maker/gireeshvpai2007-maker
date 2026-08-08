@@ -109,6 +109,9 @@ An interview-focused repository containing implementations and solutions in mode
 - Linked Lists
 - Recursion
 - Pattern Problems
+- Graph
+- Stack
+- Queue
 
 <img src="https://skillicons.dev/icons?i=cpp"/>
 
