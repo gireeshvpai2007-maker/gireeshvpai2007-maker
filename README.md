@@ -243,16 +243,13 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
 
 <div align="center">
 
-<img width="49%"
-src="https://github-stats-extended.vercel.app/api?username=gireeshvpai2007-maker&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="./profile/stats.svg" alt="GitHub Stats"/>
 
-<img width="49%"
-src="https://github-stats-extended.vercel.app/api/top-langs/?username=gireeshvpai2007-maker&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="./profile/top-langs.svg" alt="Top Languages"/>
 
 <br><br>
 
-<img width="98%"
-src="https://github-readme-streak-stats-eight.vercel.app/?user=gireeshvpai2007-maker&theme=tokyonight&hide_border=true"/>
+<img width="98%" src="./profile/streak.svg" alt="GitHub Streak"/>
 
 </div>
 ---
