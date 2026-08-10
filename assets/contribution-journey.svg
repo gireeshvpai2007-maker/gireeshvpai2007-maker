@@ -1,22 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
-<rect width="100%" height="100%" rx="12" fill="#0d1117"/>
+
+    <style>
+      .card { fill:#191b29; }
+      .title { font:700 21px Arial,sans-serif; fill:#6fa0ff; }
+      .axis-label,.x-label,.label { font:13px Arial,sans-serif; fill:#6fa0ff; }
+      .grid { stroke:#30466f; stroke-width:1; stroke-dasharray:2 4; }
+      .line { fill:none; stroke:#79a7ff; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+      .area { fill:#79a7ff; opacity:.08; }
+      .point { fill:#a9bde8; }
+      .username { font:32px Arial,sans-serif; fill:#6fa0ff; }
+      .stat { font:18px Arial,sans-serif; fill:#27d7c2; }
+      .chart-title { font:13px Arial,sans-serif; fill:#27d7c2; }
+      .journey-line { fill:none; stroke:#27d7c2; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+      .journey-area { fill:#b88cff; opacity:.85; }
+      .journey-point { fill:#27d7c2; }
+    </style>
+    
+<rect width="100%" height="100%" rx="12" class="card"/>
 <rect x="20" y="20" width="1060" height="380" rx="12" fill="#191b29"/>
-<style>
-.username { font:32px Arial,sans-serif; fill:#6fa0ff; }
-.stat { font:18px Arial,sans-serif; fill:#27d7c2; }
-.chart-title,.label { font:13px Arial,sans-serif; fill:#27d7c2; }
-.axis { stroke:#27d7c2; stroke-width:2; }
-.journey-line { fill:none; stroke:#27d7c2; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
-.area { fill:#b88cff; opacity:.85; }
-</style>
 <text x="55" y="75" class="username">gireeshvpai2007-maker</text>
-<text x="55" y="125" class="stat">◉ 288 Contributions on GitHub</text>
+<text x="55" y="125" class="stat">◉ 290 Contributions on GitHub</text>
 <text x="55" y="175" class="stat">▣ 9 Public Repositories</text>
 <text x="55" y="225" class="stat">◷ Contribution Journey</text>
 <text x="55" y="275" class="stat">✦ Building every day</text>
 <text x="800" y="70" text-anchor="middle" class="chart-title">contributions in the last year</text>
-<line x1="430" y1="350" x2="1030" y2="350" class="axis"/>
-<path d="M 430.00 350.00 L 430.00 350.00  C 435.91 350.00, 472.73 350.00, 484.55 350.00 C 496.36 350.00, 527.27 350.14, 539.09 350.00 C 550.91 349.86, 581.82 348.74, 593.64 348.74 C 605.45 348.74, 636.36 349.86, 648.18 350.00 C 660.00 350.14, 690.91 350.00, 702.73 350.00 C 714.55 350.00, 745.45 350.00, 757.27 350.00 C 769.09 350.00, 800.00 350.00, 811.82 350.00 C 823.64 350.00, 854.55 350.00, 866.36 350.00 C 878.18 350.00, 909.09 379.25, 920.91 350.00 C 932.73 320.75, 963.64 89.98, 975.45 80.00 C 987.27 70.02, 1024.09 238.63, 1030.00 257.90 L 1030.00 350.00 Z" class="area"/>
-<path d="M 430.00 350.00 C 435.91 350.00, 472.73 350.00, 484.55 350.00 C 496.36 350.00, 527.27 350.14, 539.09 350.00 C 550.91 349.86, 581.82 348.74, 593.64 348.74 C 605.45 348.74, 636.36 349.86, 648.18 350.00 C 660.00 350.14, 690.91 350.00, 702.73 350.00 C 714.55 350.00, 745.45 350.00, 757.27 350.00 C 769.09 350.00, 800.00 350.00, 811.82 350.00 C 823.64 350.00, 854.55 350.00, 866.36 350.00 C 878.18 350.00, 909.09 379.25, 920.91 350.00 C 932.73 320.75, 963.64 89.98, 975.45 80.00 C 987.27 70.02, 1024.09 238.63, 1030.00 257.90" class="journey-line"/>
-<text x="430.00" y="385" text-anchor="middle" class="label">25/09</text><text x="484.55" y="385" text-anchor="middle" class="label">25/10</text><text x="539.09" y="385" text-anchor="middle" class="label">25/11</text><text x="593.64" y="385" text-anchor="middle" class="label">25/12</text><text x="648.18" y="385" text-anchor="middle" class="label">26/01</text><text x="702.73" y="385" text-anchor="middle" class="label">26/02</text><text x="757.27" y="385" text-anchor="middle" class="label">26/03</text><text x="811.82" y="385" text-anchor="middle" class="label">26/04</text><text x="866.36" y="385" text-anchor="middle" class="label">26/05</text><text x="920.91" y="385" text-anchor="middle" class="label">26/06</text><text x="975.45" y="385" text-anchor="middle" class="label">26/07</text><text x="1030.00" y="385" text-anchor="middle" class="label">26/08</text>
+<line x1="430" y1="80.00" x2="1030" y2="80.00" class="grid"/><text x="418" y="85.00" text-anchor="end" class="axis-label">214</text><line x1="430" y1="147.50" x2="1030" y2="147.50" class="grid"/><text x="418" y="152.50" text-anchor="end" class="axis-label">160</text><line x1="430" y1="215.00" x2="1030" y2="215.00" class="grid"/><text x="418" y="220.00" text-anchor="end" class="axis-label">107</text><line x1="430" y1="282.50" x2="1030" y2="282.50" class="grid"/><text x="418" y="287.50" text-anchor="end" class="axis-label">54</text><line x1="430" y1="350.00" x2="1030" y2="350.00" class="grid"/><text x="418" y="355.00" text-anchor="end" class="axis-label">0</text>
+<path d="M 430.00 350.00 L 430.00 350.00  C 435.42 350.00, 469.17 350.00, 480.00 350.00 C 490.83 350.00, 519.17 350.00, 530.00 350.00 C 540.83 350.00, 569.17 350.14, 580.00 350.00 C 590.83 349.86, 619.17 348.74, 630.00 348.74 C 640.83 348.74, 669.17 349.86, 680.00 350.00 C 690.83 350.14, 719.17 350.00, 730.00 350.00 C 740.83 350.00, 769.17 350.00, 780.00 350.00 C 790.83 350.00, 819.17 350.00, 830.00 350.00 C 840.83 350.00, 869.17 350.00, 880.00 350.00 C 890.83 350.00, 919.17 379.25, 930.00 350.00 C 940.83 320.75, 969.17 90.25, 980.00 80.00 C 990.83 69.75, 1024.58 236.38, 1030.00 255.37 L 1030.00 350.00 Z" class="journey-area"/>
+<path d="M 430.00 350.00 C 435.42 350.00, 469.17 350.00, 480.00 350.00 C 490.83 350.00, 519.17 350.00, 530.00 350.00 C 540.83 350.00, 569.17 350.14, 580.00 350.00 C 590.83 349.86, 619.17 348.74, 630.00 348.74 C 640.83 348.74, 669.17 349.86, 680.00 350.00 C 690.83 350.14, 719.17 350.00, 730.00 350.00 C 740.83 350.00, 769.17 350.00, 780.00 350.00 C 790.83 350.00, 819.17 350.00, 830.00 350.00 C 840.83 350.00, 869.17 350.00, 880.00 350.00 C 890.83 350.00, 919.17 379.25, 930.00 350.00 C 940.83 320.75, 969.17 90.25, 980.00 80.00 C 990.83 69.75, 1024.58 236.38, 1030.00 255.37" class="journey-line"/>
+<circle cx="430.00" cy="350.00" r="4" class="journey-point"><title>2025-08: 0 contributions</title></circle><circle cx="480.00" cy="350.00" r="4" class="journey-point"><title>2025-09: 0 contributions</title></circle><circle cx="530.00" cy="350.00" r="4" class="journey-point"><title>2025-10: 0 contributions</title></circle><circle cx="580.00" cy="350.00" r="4" class="journey-point"><title>2025-11: 0 contributions</title></circle><circle cx="630.00" cy="348.74" r="4" class="journey-point"><title>2025-12: 1 contributions</title></circle><circle cx="680.00" cy="350.00" r="4" class="journey-point"><title>2026-01: 0 contributions</title></circle><circle cx="730.00" cy="350.00" r="4" class="journey-point"><title>2026-02: 0 contributions</title></circle><circle cx="780.00" cy="350.00" r="4" class="journey-point"><title>2026-03: 0 contributions</title></circle><circle cx="830.00" cy="350.00" r="4" class="journey-point"><title>2026-04: 0 contributions</title></circle><circle cx="880.00" cy="350.00" r="4" class="journey-point"><title>2026-05: 0 contributions</title></circle><circle cx="930.00" cy="350.00" r="4" class="journey-point"><title>2026-06: 0 contributions</title></circle><circle cx="980.00" cy="80.00" r="4" class="journey-point"><title>2026-07: 214 contributions</title></circle><circle cx="1030.00" cy="255.37" r="4" class="journey-point"><title>2026-08: 75 contributions</title></circle>
+<text x="430.00" y="385" text-anchor="middle" class="label">25/08</text><text x="480.00" y="385" text-anchor="middle" class="label">25/09</text><text x="530.00" y="385" text-anchor="middle" class="label">25/10</text><text x="580.00" y="385" text-anchor="middle" class="label">25/11</text><text x="630.00" y="385" text-anchor="middle" class="label">25/12</text><text x="680.00" y="385" text-anchor="middle" class="label">26/01</text><text x="730.00" y="385" text-anchor="middle" class="label">26/02</text><text x="780.00" y="385" text-anchor="middle" class="label">26/03</text><text x="830.00" y="385" text-anchor="middle" class="label">26/04</text><text x="880.00" y="385" text-anchor="middle" class="label">26/05</text><text x="930.00" y="385" text-anchor="middle" class="label">26/06</text><text x="980.00" y="385" text-anchor="middle" class="label">26/07</text><text x="1030.00" y="385" text-anchor="middle" class="label">26/08</text>
 </svg>
