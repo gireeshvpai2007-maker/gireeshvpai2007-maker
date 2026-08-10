@@ -251,7 +251,13 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
 
 <img width="98%" src="./profile/streak.svg" alt="GitHub Streak"/>
 <br>
- <img src="./assets/contribution-graph.svg" alt="GitHub Contribution Graph" />
+ <p align="center">
+  <img
+    src="./assets/activity-graph.svg"
+    alt="GitHub Contribution Activity Graph"
+    width="100%"
+  />
+</p>
 
 </div>
 ---
