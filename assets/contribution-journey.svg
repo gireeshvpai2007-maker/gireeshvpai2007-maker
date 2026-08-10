@@ -6,7 +6,7 @@
 .stat { font:18px Arial,sans-serif; fill:#27d7c2; }
 .chart-title,.label { font:13px Arial,sans-serif; fill:#27d7c2; }
 .axis { stroke:#27d7c2; stroke-width:2; }
-.journey-line { fill:none; stroke:#27d7c2; stroke-width:2; }
+.journey-line { fill:none; stroke:#27d7c2; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
 .area { fill:#b88cff; opacity:.85; }
 </style>
 <text x="55" y="75" class="username">gireeshvpai2007-maker</text>
@@ -16,7 +16,7 @@
 <text x="55" y="275" class="stat">✦ Building every day</text>
 <text x="800" y="70" text-anchor="middle" class="chart-title">contributions in the last year</text>
 <line x1="430" y1="350" x2="1030" y2="350" class="axis"/>
-<path d="M 430.00 350.00 430.00 350.00 L 484.55 350.00 L 539.09 350.00 L 593.64 348.74 L 648.18 350.00 L 702.73 350.00 L 757.27 350.00 L 811.82 350.00 L 866.36 350.00 L 920.91 350.00 L 975.45 80.00 L 1030.00 257.90 L 1030.00 350.00 Z" class="area"/>
-<path d="M 430.00 350.00 L 484.55 350.00 L 539.09 350.00 L 593.64 348.74 L 648.18 350.00 L 702.73 350.00 L 757.27 350.00 L 811.82 350.00 L 866.36 350.00 L 920.91 350.00 L 975.45 80.00 L 1030.00 257.90" class="journey-line"/>
+<path d="M 430.00 350.00 L 430.00 350.00  C 435.91 350.00, 472.73 350.00, 484.55 350.00 C 496.36 350.00, 527.27 350.14, 539.09 350.00 C 550.91 349.86, 581.82 348.74, 593.64 348.74 C 605.45 348.74, 636.36 349.86, 648.18 350.00 C 660.00 350.14, 690.91 350.00, 702.73 350.00 C 714.55 350.00, 745.45 350.00, 757.27 350.00 C 769.09 350.00, 800.00 350.00, 811.82 350.00 C 823.64 350.00, 854.55 350.00, 866.36 350.00 C 878.18 350.00, 909.09 379.25, 920.91 350.00 C 932.73 320.75, 963.64 89.98, 975.45 80.00 C 987.27 70.02, 1024.09 238.63, 1030.00 257.90 L 1030.00 350.00 Z" class="area"/>
+<path d="M 430.00 350.00 C 435.91 350.00, 472.73 350.00, 484.55 350.00 C 496.36 350.00, 527.27 350.14, 539.09 350.00 C 550.91 349.86, 581.82 348.74, 593.64 348.74 C 605.45 348.74, 636.36 349.86, 648.18 350.00 C 660.00 350.14, 690.91 350.00, 702.73 350.00 C 714.55 350.00, 745.45 350.00, 757.27 350.00 C 769.09 350.00, 800.00 350.00, 811.82 350.00 C 823.64 350.00, 854.55 350.00, 866.36 350.00 C 878.18 350.00, 909.09 379.25, 920.91 350.00 C 932.73 320.75, 963.64 89.98, 975.45 80.00 C 987.27 70.02, 1024.09 238.63, 1030.00 257.90" class="journey-line"/>
 <text x="430.00" y="385" text-anchor="middle" class="label">25/09</text><text x="484.55" y="385" text-anchor="middle" class="label">25/10</text><text x="539.09" y="385" text-anchor="middle" class="label">25/11</text><text x="593.64" y="385" text-anchor="middle" class="label">25/12</text><text x="648.18" y="385" text-anchor="middle" class="label">26/01</text><text x="702.73" y="385" text-anchor="middle" class="label">26/02</text><text x="757.27" y="385" text-anchor="middle" class="label">26/03</text><text x="811.82" y="385" text-anchor="middle" class="label">26/04</text><text x="866.36" y="385" text-anchor="middle" class="label">26/05</text><text x="920.91" y="385" text-anchor="middle" class="label">26/06</text><text x="975.45" y="385" text-anchor="middle" class="label">26/07</text><text x="1030.00" y="385" text-anchor="middle" class="label">26/08</text>
 </svg>
