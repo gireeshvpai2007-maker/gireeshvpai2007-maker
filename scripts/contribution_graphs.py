@@ -76,8 +76,53 @@ def esc(value):
             .replace('"', "&quot;"))
 
 
+def smooth_path(points, tension=0.75):
+    """Return a smooth cubic Bezier path through all points.
+
+    This uses a Catmull-Rom-style conversion so the graph has the
+    soft, flowing curves from the reference image instead of sharp
+    point-to-point segments.
+    """
+    if len(points) < 2:
+        return ""
+
+    if len(points) == 2:
+        return f"M {points[0][0]:.2f} {points[0][1]:.2f} L {points[1][0]:.2f} {points[1][1]:.2f}"
+
+    path = f"M {points[0][0]:.2f} {points[0][1]:.2f}"
+
+    for i in range(len(points) - 1):
+        p0 = points[i - 1] if i > 0 else points[i]
+        p1 = points[i]
+        p2 = points[i + 1]
+        p3 = points[i + 2] if i + 2 < len(points) else p2
+
+        c1x = p1[0] + (p2[0] - p0[0]) * tension / 6
+        c1y = p1[1] + (p2[1] - p0[1]) * tension / 6
+        c2x = p2[0] - (p3[0] - p1[0]) * tension / 6
+        c2y = p2[1] - (p3[1] - p1[1]) * tension / 6
+
+        path += (
+            f" C {c1x:.2f} {c1y:.2f},"
+            f" {c2x:.2f} {c2y:.2f},"
+            f" {p2[0]:.2f} {p2[1]:.2f}"
+        )
+
+    return path
+
+
+def smooth_area_path(points, base_y, tension=0.75):
+    line = smooth_path(points, tension)
+    return (
+        f"M {points[0][0]:.2f} {base_y:.2f} "
+        f"L {points[0][0]:.2f} {points[0][1]:.2f} "
+        f"{line[len(f'M {points[0][0]:.2f} {points[0][1]:.2f}'):] if line.startswith(f'M {points[0][0]:.2f} {points[0][1]:.2f}') else line} "
+        f"L {points[-1][0]:.2f} {base_y:.2f} Z"
+    )
+
+
 def write_activity_graph():
-    # Last 31 days: the line graph shown in the user's reference image.
+    # Last 31 days: daily activity graph.
     days = all_days[-31:]
     width, height = 1100, 460
     left, right, top, bottom = 80, 35, 85, 70
@@ -91,11 +136,10 @@ def write_activity_graph():
         y = top + plot_h - (count / max_count) * plot_h
         points.append((x, y, date, count))
 
-    path = "M " + " L ".join(f"{x:.2f} {y:.2f}" for x, y, _, _ in points)
+    xy = [(x, y) for x, y, _, _ in points]
+    path = smooth_path(xy)
     base_y = top + plot_h
-    area = f"M {points[0][0]:.2f} {base_y:.2f} " + " L ".join(
-        f"{x:.2f} {y:.2f}" for x, y, _, _ in points
-    ) + f" L {points[-1][0]:.2f} {base_y:.2f} Z"
+    area = smooth_area_path(xy, base_y)
 
     grid = []
     for i in range(7):
@@ -104,9 +148,10 @@ def write_activity_graph():
         grid.append(f'<line x1="{left}" y1="{y:.2f}" x2="{left + plot_w}" y2="{y:.2f}" class="grid"/>')
         grid.append(f'<text x="{left - 12}" y="{y + 5:.2f}" text-anchor="end" class="axis-label">{value}</text>')
 
+    # Show every other day label to keep the smooth graph clean.
     labels = []
     for i, (x, _, date, _) in enumerate(points):
-        if i % 1 == 0:
+        if i % 2 == 0 or i == len(points) - 1:
             dt = datetime.strptime(date, "%Y-%m-%d")
             labels.append(f'<text x="{x:.2f}" y="{height - 25}" text-anchor="middle" class="x-label">{dt.strftime("%d")}</text>')
 
@@ -124,7 +169,7 @@ def write_activity_graph():
 .axis-label,.x-label {{ font: 13px Arial,sans-serif; fill:#6fa0ff; }}
 .grid {{ stroke:#30466f; stroke-width:1; stroke-dasharray:2 4; }}
 .line {{ fill:none; stroke:#79a7ff; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }}
-.area {{ fill:#79a7ff; opacity:.10; }}
+.area {{ fill:#79a7ff; opacity:.08; }}
 .point {{ fill:#a9bde8; }}
 </style>
 <text x="{width/2}" y="48" text-anchor="middle" class="title">{esc((user['name'] or USERNAME).upper())}'s Contribution Graph</text>
@@ -161,10 +206,9 @@ def write_journey_graph():
         points.append((x, y, month, value))
 
     base_y = top + plot_h
-    line = "M " + " L ".join(f"{x:.2f} {y:.2f}" for x, y, _, _ in points)
-    area = f"M {points[0][0]:.2f} {base_y:.2f} " + " L ".join(
-        f"{x:.2f} {y:.2f}" for x, y, _, _ in points
-    ) + f" L {points[-1][0]:.2f} {base_y:.2f} Z"
+    xy = [(x, y) for x, y, _, _ in points]
+    line = smooth_path(xy, tension=0.65)
+    area = smooth_area_path(xy, base_y, tension=0.65)
 
     labels = []
     for x, _, month, _ in points:
@@ -182,7 +226,7 @@ def write_journey_graph():
 .stat {{ font:18px Arial,sans-serif; fill:#27d7c2; }}
 .chart-title,.label {{ font:13px Arial,sans-serif; fill:#27d7c2; }}
 .axis {{ stroke:#27d7c2; stroke-width:2; }}
-.journey-line {{ fill:none; stroke:#27d7c2; stroke-width:2; }}
+.journey-line {{ fill:none; stroke:#27d7c2; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }}
 .area {{ fill:#b88cff; opacity:.85; }}
 </style>
 <text x="55" y="75" class="username">{esc(USERNAME)}</text>
@@ -204,4 +248,4 @@ def write_journey_graph():
 os.makedirs("assets", exist_ok=True)
 write_activity_graph()
 write_journey_graph()
-print("Generated activity-graph.svg and contribution-journey.svg")
+print("Generated smooth activity-graph.svg and contribution-journey.svg")
