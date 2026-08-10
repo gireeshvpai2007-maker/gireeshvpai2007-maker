@@ -1,38 +1,84 @@
-name: Update Contribution Activity Graph
+name: Update Contribution Graphs
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "30 18 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  generate-graph:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution graph
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone activity graph generator
+        run: |
+          git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/activity-graph
+          cd /tmp/activity-graph
+          npm ci
+          npm run build
+
+      - name: Start activity graph generator
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PORT: 5100
+        run: |
+          cd /tmp/activity-graph
+          nohup npm start > /tmp/activity-graph.log 2>&1 &
+
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:5100/ > /dev/null; then
+              echo "Activity graph server is ready."
+              exit 0
+            fi
+            sleep 1
+          done
+
+          cat /tmp/activity-graph.log
+          exit 1
+
+      - name: Generate exact activity line graph
+        run: |
+          mkdir -p assets
+
+          curl -fsS \
+            "http://127.0.0.1:5100/graph?username=gireeshvpai2007-maker&theme=github&days=31&area=true&hide_border=true&custom_title=GIREESH%20V%20PAI%27s%20Contribution%20Graph" \
+            -o assets/activity-graph.svg
+
+          test -s assets/activity-graph.svg
+          head -c 100 assets/activity-graph.svg
+
+      - name: Generate contribution journey graph
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: gireeshvpai2007-maker
         run: |
           python3 <<'PY'
-          import os
           import json
+          import os
           import urllib.request
-          from datetime import datetime, timedelta
+          from datetime import datetime, timezone
 
-          TOKEN = os.environ["GITHUB_TOKEN"]
-          USERNAME = os.environ["GITHUB_USERNAME"]
+          username = "gireeshvpai2007-maker"
+          token = os.environ["GITHUB_TOKEN"]
 
           query = """
           query($login: String!, $from: DateTime!, $to: DateTime!) {
             user(login: $login) {
+              name
+              createdAt
+              repositories(first: 1, ownerAffiliations: OWNER) {
+                totalCount
+              }
               contributionsCollection(from: $from, to: $to) {
                 contributionCalendar {
                   totalContributions
@@ -48,230 +94,123 @@ jobs:
           }
           """
 
-          today = datetime.utcnow()
-          from_date = today - timedelta(days=365)
+          now = datetime.now(timezone.utc)
+          from_date = now.replace(year=now.year - 1)
 
           payload = json.dumps({
               "query": query,
               "variables": {
-                  "login": USERNAME,
-                  "from": from_date.strftime("%Y-%m-%dT00:00:00Z"),
-                  "to": today.strftime("%Y-%m-%dT23:59:59Z")
-              }
+                  "login": username,
+                  "from": from_date.isoformat(),
+                  "to": now.isoformat(),
+              },
           }).encode()
 
           request = urllib.request.Request(
               "https://api.github.com/graphql",
               data=payload,
               headers={
-                  "Authorization": f"Bearer {TOKEN}",
+                  "Authorization": f"Bearer {token}",
                   "Content-Type": "application/json",
-                  "User-Agent": "github-actions"
-              }
+                  "User-Agent": "gireeshvpai2007-maker-profile",
+              },
           )
 
           with urllib.request.urlopen(request) as response:
-              result = json.load(response)
+              data = json.load(response)
 
-          if "errors" in result:
-              raise RuntimeError(json.dumps(result["errors"], indent=2))
+          if data.get("errors"):
+              raise RuntimeError(json.dumps(data["errors"], indent=2))
 
-          calendar = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+          user = data["data"]["user"]
+          calendar = user["contributionsCollection"]["contributionCalendar"]
 
-          days = []
-
+          monthly = {}
           for week in calendar["weeks"]:
               for day in week["contributionDays"]:
-                  days.append({
-                      "date": day["date"],
-                      "count": day["contributionCount"]
-                  })
+                  month = day["date"][:7]
+                  monthly[month] = monthly.get(month, 0) + day["contributionCount"]
 
-          days.sort(key=lambda x: x["date"])
+          items = list(sorted(monthly.items()))[-12:]
+          max_value = max([v for _, v in items] + [1])
 
-          # Create a clean weekly activity line graph.
-          weekly = []
-
-          for i in range(0, len(days), 7):
-              chunk = days[i:i + 7]
-
-              if chunk:
-                  weekly.append({
-                      "date": chunk[-1]["date"],
-                      "count": sum(day["count"] for day in chunk)
-                  })
-
-          width = 1000
-          height = 300
-
-          left = 55
-          right = 25
-          top = 35
-          bottom = 55
-
-          graph_width = width - left - right
-          graph_height = height - top - bottom
-
-          max_count = max((x["count"] for x in weekly), default=1)
+          width, height = 1100, 420
+          left, right, top, bottom = 420, 70, 80, 70
+          chart_width = width - left - right
+          chart_height = height - top - bottom
 
           points = []
+          for i, (month, value) in enumerate(items):
+              x = left if len(items) == 1 else left + i / (len(items) - 1) * chart_width
+              y = top + chart_height - value / max_value * chart_height
+              points.append((x, y, month, value))
 
-          for i, item in enumerate(weekly):
-              if len(weekly) == 1:
-                  x = left
-              else:
-                  x = left + (i / (len(weekly) - 1)) * graph_width
+          line = " ".join(f"{x:.2f},{y:.2f}" for x, y, _, _ in points)
+          base_y = top + chart_height
+          area = f"{left},{base_y} " + line + f" {left + chart_width},{base_y}"
 
-              y = top + graph_height - (
-                  item["count"] / max_count
-              ) * graph_height
-
-              points.append((x, y, item["count"], item["date"]))
-
-          polyline = " ".join(
-              f"{x:.2f},{y:.2f}" for x, y, _, _ in points
-          )
-
-          area = (
-              f"{left},{top + graph_height} "
-              + polyline
-              + f" {left + graph_width},{top + graph_height}"
-          )
-
-          # Select approximately 6 date labels.
-          label_indices = []
-
-          if points:
-              step = max(1, len(points) // 6)
-              label_indices = list(range(0, len(points), step))[:6]
-
-          labels = []
-
-          for index in label_indices:
-              x, y, count, date = points[index]
-              label = datetime.strptime(date, "%Y-%m-%d").strftime("%b %Y")
-
-              labels.append(
-                  f'<text x="{x:.2f}" y="{height - 20}" '
-                  f'text-anchor="middle" class="label">{label}</text>'
-              )
+          def esc(s):
+              return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
           total = calendar["totalContributions"]
+          repos = user["repositories"]["totalCount"]
 
-          svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
-          width="{width}" height="{height}"
-          viewBox="0 0 {width} {height}">
+          labels = []
+          for x, _, month, _ in points:
+              dt = datetime.strptime(month, "%Y-%m")
+              labels.append(
+                  f'<text x="{x:.2f}" y="{base_y + 35}" text-anchor="middle" class="label">{dt.strftime("%y/%m")}</text>'
+              )
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+          <rect width="100%" height="100%" rx="12" fill="#0d1117"/>
+          <rect x="20" y="20" width="1060" height="380" rx="12" fill="#161b26"/>
+
+          <text x="55" y="75" class="username">{esc(username)}</text>
+          <text x="55" y="125" class="stat">◉ {total} Contributions on GitHub</text>
+          <text x="55" y="175" class="stat">▣ {repos} Public Repositories</text>
+          <text x="55" y="225" class="stat">◷ Contribution Journey</text>
+          <text x="55" y="275" class="stat">✦ Building every day</text>
+
+          <text x="800" y="70" text-anchor="middle" class="chart-title">contributions in the last year</text>
+
+          <line x1="{left}" y1="{base_y}" x2="{left + chart_width}" y2="{base_y}" class="axis"/>
+          <polygon points="{area}" class="area"/>
+          <polyline points="{line}" class="journey-line"/>
+
+          {''.join(labels)}
 
           <style>
-            .title {{
-              font: 600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-              fill: #24292f;
-            }}
-
-            .label {{
-              font: 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-              fill: #57606a;
-            }}
-
-            .grid {{
-              stroke: #d8dee4;
-              stroke-width: 1;
-            }}
-
-            .line {{
-              fill: none;
-              stroke: #2da44e;
-              stroke-width: 3;
-              stroke-linecap: round;
-              stroke-linejoin: round;
-            }}
-
-            .area {{
-              fill: #2da44e;
-              opacity: 0.10;
-            }}
-
-            .point {{
-              fill: #2da44e;
-            }}
-
-            @media (prefers-color-scheme: dark) {{
-              .title {{
-                fill: #f0f6fc;
-              }}
-
-              .label {{
-                fill: #8b949e;
-              }}
-
-              .grid {{
-                stroke: #30363d;
-              }}
-
-              .line {{
-                stroke: #3fb950;
-              }}
-
-              .area {{
-                fill: #3fb950;
-              }}
-
-              .point {{
-                fill: #3fb950;
-              }}
-            }}
+            .username {{ fill:#79a7ff; font:32px Arial,sans-serif; }}
+            .stat {{ fill:#27d7c2; font:18px Arial,sans-serif; }}
+            .chart-title {{ fill:#27d7c2; font:16px Arial,sans-serif; }}
+            .label {{ fill:#27d7c2; font:12px Arial,sans-serif; }}
+            .axis {{ stroke:#27d7c2; stroke-width:2; }}
+            .journey-line {{ fill:none; stroke:#27d7c2; stroke-width:2; }}
+            .area {{ fill:#b88cff; opacity:.85; }}
           </style>
-
-          <text x="{left}" y="25" class="title">
-            GitHub Contribution Activity — {total} contributions
-          </text>
-
-          <line x1="{left}" y1="{top}"
-                x2="{left}" y2="{top + graph_height}"
-                class="grid"/>
-
-          <line x1="{left}" y1="{top + graph_height / 2}"
-                x2="{left + graph_width}" y2="{top + graph_height / 2}"
-                class="grid"/>
-
-          <line x1="{left}" y1="{top + graph_height}"
-                x2="{left + graph_width}" y2="{top + graph_height}"
-                class="grid"/>
-
-          <polygon points="{area}" class="area"/>
-
-          <polyline points="{polyline}" class="line"/>
-
-          {"".join(
-              f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2.5" class="point">'
-              f'<title>{date}: {count} contributions</title>'
-              f'</circle>'
-              for x, y, count, date in points
-          )}
-
-          {"".join(labels)}
-
-          </svg>
-          '''
+          </svg>'''
 
           os.makedirs("assets", exist_ok=True)
-
-          with open("assets/activity-graph.svg", "w", encoding="utf-8") as f:
+          with open("assets/contribution-journey.svg", "w", encoding="utf-8") as f:
               f.write(svg)
-
-          print(f"Generated graph with {total} total contributions.")
           PY
 
-      - name: Commit updated graph
+      - name: Validate generated SVGs
+        run: |
+          test -s assets/activity-graph.svg
+          test -s assets/contribution-journey.svg
+          grep -q '<svg' assets/activity-graph.svg
+          grep -q '<svg' assets/contribution-journey.svg
+
+      - name: Commit generated graphs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add assets/activity-graph.svg
-
+          git add assets/activity-graph.svg assets/contribution-journey.svg
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No graph changes."
           else
-            git commit -m "Update contribution activity graph"
+            git commit -m "chore: update contribution graphs"
             git push
           fi
