@@ -30,9 +30,6 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 }
 """
 
-# Use one rolling 365-day window for both graphs.
-# The calendar returned by GitHub may contain a few alignment days outside
-# the exact window, so filter them explicitly before doing any calculations.
 now = datetime.now(timezone.utc)
 start = now - timedelta(days=365)
 
@@ -89,9 +86,9 @@ def esc(value):
 
 
 def smooth_path(points, tension=0.75):
+    """Existing smooth path used by the daily activity graph."""
     if len(points) < 2:
         return ""
-
     if len(points) == 2:
         return (
             f"M {points[0][0]:.2f} {points[0][1]:.2f} "
@@ -99,7 +96,6 @@ def smooth_path(points, tension=0.75):
         )
 
     path = f"M {points[0][0]:.2f} {points[0][1]:.2f}"
-
     for i in range(len(points) - 1):
         p0 = points[i - 1] if i > 0 else points[i]
         p1 = points[i]
@@ -116,18 +112,78 @@ def smooth_path(points, tension=0.75):
             f" {c2x:.2f} {c2y:.2f},"
             f" {p2[0]:.2f} {p2[1]:.2f}"
         )
-
     return path
 
 
 def smooth_area_path(points, base_y, tension=0.75):
     if not points:
         return ""
-
     line = smooth_path(points, tension)
     first = f"M {points[0][0]:.2f} {points[0][1]:.2f}"
     line_body = line[len(first):] if line.startswith(first) else line
+    return (
+        f"M {points[0][0]:.2f} {base_y:.2f} "
+        f"L {points[0][0]:.2f} {points[0][1]:.2f} "
+        f"{line_body} "
+        f"L {points[-1][0]:.2f} {base_y:.2f} Z"
+    )
 
+
+def monotone_path(points):
+    """Smooth cubic curve that never overshoots the monthly values.
+
+    The previous Catmull-Rom curve could dip below zero or rise above the
+    largest monthly value when there was a large jump (e.g. June -> July).
+    This monotone Hermite interpolation keeps every segment between its
+    neighbouring data values while remaining smooth.
+    """
+    n = len(points)
+    if n < 2:
+        return ""
+    if n == 2:
+        return (
+            f"M {points[0][0]:.2f} {points[0][1]:.2f} "
+            f"L {points[1][0]:.2f} {points[1][1]:.2f}"
+        )
+
+    x = [p[0] for p in points]
+    y = [p[1] for p in points]
+    h = [x[i + 1] - x[i] for i in range(n - 1)]
+    delta = [(y[i + 1] - y[i]) / h[i] for i in range(n - 1)]
+
+    m = [0.0] * n
+    m[0] = delta[0]
+    m[-1] = delta[-1]
+
+    for i in range(1, n - 1):
+        if delta[i - 1] * delta[i] <= 0:
+            m[i] = 0.0
+        else:
+            w1 = 2 * h[i] + h[i - 1]
+            w2 = h[i] + 2 * h[i - 1]
+            m[i] = (w1 + w2) / (w1 / delta[i - 1] + w2 / delta[i])
+
+    path = f"M {x[0]:.2f} {y[0]:.2f}"
+    for i in range(n - 1):
+        dx = h[i]
+        c1x = x[i] + dx / 3
+        c1y = y[i] + m[i] * dx / 3
+        c2x = x[i + 1] - dx / 3
+        c2y = y[i + 1] - m[i + 1] * dx / 3
+        path += (
+            f" C {c1x:.2f} {c1y:.2f},"
+            f" {c2x:.2f} {c2y:.2f},"
+            f" {x[i + 1]:.2f} {y[i + 1]:.2f}"
+        )
+    return path
+
+
+def monotone_area_path(points, base_y):
+    line = monotone_path(points)
+    if not points:
+        return ""
+    first = f"M {points[0][0]:.2f} {points[0][1]:.2f}"
+    line_body = line[len(first):] if line.startswith(first) else line
     return (
         f"M {points[0][0]:.2f} {base_y:.2f} "
         f"L {points[0][0]:.2f} {points[0][1]:.2f} "
@@ -157,9 +213,8 @@ def styles():
 
 
 def write_activity_graph():
-    # This is the existing 31-day graph. Its behaviour is intentionally kept.
+    # DO NOT change this graph's data/style. It is the user's preferred graph.
     days = all_days[-31:]
-
     width, height = 1100, 460
     left, right, top, bottom = 80, 35, 85, 70
     plot_w = width - left - right
@@ -182,12 +237,10 @@ def write_activity_graph():
         y = top + i / 6 * plot_h
         value = round(max_count - i / 6 * max_count)
         grid.append(
-            f'<line x1="{left}" y1="{y:.2f}" '
-            f'x2="{left + plot_w}" y2="{y:.2f}" class="grid"/>'
+            f'<line x1="{left}" y1="{y:.2f}" x2="{left + plot_w}" y2="{y:.2f}" class="grid"/>'
         )
         grid.append(
-            f'<text x="{left - 12}" y="{y + 5:.2f}" '
-            f'text-anchor="end" class="axis-label">{value}</text>'
+            f'<text x="{left - 12}" y="{y + 5:.2f}" text-anchor="end" class="axis-label">{value}</text>'
         )
 
     labels = []
@@ -195,8 +248,7 @@ def write_activity_graph():
         if i % 2 == 0 or i == len(points) - 1:
             dt = datetime.strptime(date, "%Y-%m-%d")
             labels.append(
-                f'<text x="{x:.2f}" y="{height - 25}" '
-                f'text-anchor="middle" class="x-label">{dt.strftime("%d")}</text>'
+                f'<text x="{x:.2f}" y="{height - 25}" text-anchor="middle" class="x-label">{dt.strftime("%d")}</text>'
             )
 
     circles = []
@@ -224,16 +276,14 @@ def write_activity_graph():
 
 
 def write_journey_graph():
-    # IMPORTANT FIX:
-    # Use all 13 calendar buckets touched by the exact rolling 365-day
-    # window. This prevents the old bug where [-12:] silently discarded the
-    # first partial month while the headline total still included it.
+    # Exactly 12 displayed monthly buckets: Sep 2025 -> Aug 2026 for the
+    # current date. This matches the intended "last year" card layout.
     monthly = {}
     for date, count in all_days:
         month = date[:7]
         monthly[month] = monthly.get(month, 0) + count
 
-    items = sorted(monthly.items())
+    items = sorted(monthly.items())[-12:]
 
     width, height = 1100, 420
     left, right, top, bottom = 430, 70, 80, 70
@@ -249,32 +299,25 @@ def write_journey_graph():
 
     base_y = top + plot_h
     xy = [(x, y) for x, y, _, _ in points]
-    line = smooth_path(xy, tension=0.65)
-    area = smooth_area_path(xy, base_y, tension=0.65)
+    line = monotone_path(xy)
+    area = monotone_area_path(xy, base_y)
 
-    labels = []
-    for x, _, month, _ in points:
-        dt = datetime.strptime(month, "%Y-%m")
-        labels.append(
-            f'<text x="{x:.2f}" y="{base_y + 35}" '
-            f'text-anchor="middle" class="label">{dt.strftime("%y/%m")}</text>'
-        )
-
-    total = calendar["totalContributions"]
-    repos = user["repositories"]["totalCount"]
-
-    # Add a numeric scale so the curve can be checked against the monthly
-    # values instead of being a decorative shape with no reference values.
+    # Five horizontal reference levels, including the true maximum and zero.
     y_axis = []
     for i in range(5):
         fraction = i / 4
         y = top + fraction * plot_h
         value = round(max_value * (1 - fraction))
         y_axis.append(
-            f'<line x1="{left}" y1="{y:.2f}" '
-            f'x2="{left + plot_w}" y2="{y:.2f}" class="grid"/>'
-            f'<text x="{left - 12}" y="{y + 5:.2f}" '
-            f'text-anchor="end" class="axis-label">{value}</text>'
+            f'<line x1="{left}" y1="{y:.2f}" x2="{left + plot_w}" y2="{y:.2f}" class="grid"/>'
+            f'<text x="{left - 12}" y="{y + 5:.2f}" text-anchor="end" class="axis-label">{value}</text>'
+        )
+
+    labels = []
+    for x, _, month, _ in points:
+        dt = datetime.strptime(month, "%Y-%m")
+        labels.append(
+            f'<text x="{x:.2f}" y="{base_y + 35}" text-anchor="middle" class="label">{dt.strftime("%y/%m")}</text>'
         )
 
     points_svg = []
@@ -283,6 +326,9 @@ def write_journey_graph():
             f'<circle cx="{x:.2f}" cy="{y:.2f}" r="4" class="journey-point">'
             f'<title>{esc(month)}: {value} contributions</title></circle>'
         )
+
+    total = calendar["totalContributions"]
+    repos = user["repositories"]["totalCount"]
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
 {styles()}
@@ -293,7 +339,7 @@ def write_journey_graph():
 <text x="55" y="175" class="stat">▣ {repos} Public Repositories</text>
 <text x="55" y="225" class="stat">◷ Contribution Journey</text>
 <text x="55" y="275" class="stat">✦ Building every day</text>
-<text x="800" y="70" text-anchor="middle" class="chart-title">contributions in the last year</text>
+<text x="800" y="70" text-anchor="middle" class="chart-title">monthly contributions · last 12 months</text>
 {''.join(y_axis)}
 <path d="{area}" class="journey-area"/>
 <path d="{line}" class="journey-line"/>
@@ -308,4 +354,4 @@ def write_journey_graph():
 os.makedirs("assets", exist_ok=True)
 write_activity_graph()
 write_journey_graph()
-print("Generated smooth activity-graph.svg and corrected contribution-journey.svg")
+print("Generated activity-graph.svg and corrected contribution-journey.svg")
