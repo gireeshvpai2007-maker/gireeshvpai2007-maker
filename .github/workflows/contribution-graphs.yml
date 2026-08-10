@@ -1,9 +1,13 @@
-name: Update Contribution Graphs
+name: Generate Contribution Graphs
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/contribution-graphs.yml'
+      - 'scripts/contribution_graphs.py'
   schedule:
-    - cron: "30 18 * * *"
+    - cron: '30 18 * * *'
 
 permissions:
   contents: write
@@ -13,204 +17,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout profile repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Clone activity graph generator
-        run: |
-          git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/activity-graph
-          cd /tmp/activity-graph
-          npm ci
-          npm run build
-
-      - name: Start activity graph generator
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PORT: 5100
-        run: |
-          cd /tmp/activity-graph
-          nohup npm start > /tmp/activity-graph.log 2>&1 &
-
-          for i in {1..30}; do
-            if curl -fsS http://127.0.0.1:5100/ > /dev/null; then
-              echo "Activity graph server is ready."
-              exit 0
-            fi
-            sleep 1
-          done
-
-          cat /tmp/activity-graph.log
-          exit 1
-
-      - name: Generate exact activity line graph
-        run: |
-          mkdir -p assets
-
-          curl -fsS \
-            "http://127.0.0.1:5100/graph?username=gireeshvpai2007-maker&theme=github&days=31&area=true&hide_border=true&custom_title=GIREESH%20V%20PAI%27s%20Contribution%20Graph" \
-            -o assets/activity-graph.svg
-
-          test -s assets/activity-graph.svg
-          head -c 100 assets/activity-graph.svg
-
-      - name: Generate contribution journey graph
+      - name: Generate graphs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/contribution_graphs.py
+
+      - name: Commit generated SVGs
         run: |
-          python3 <<'PY'
-          import json
-          import os
-          import urllib.request
-          from datetime import datetime, timezone
-
-          username = "gireeshvpai2007-maker"
-          token = os.environ["GITHUB_TOKEN"]
-
-          query = """
-          query($login: String!, $from: DateTime!, $to: DateTime!) {
-            user(login: $login) {
-              name
-              createdAt
-              repositories(first: 1, ownerAffiliations: OWNER) {
-                totalCount
-              }
-              contributionsCollection(from: $from, to: $to) {
-                contributionCalendar {
-                  totalContributions
-                  weeks {
-                    contributionDays {
-                      date
-                      contributionCount
-                    }
-                  }
-                }
-              }
-            }
-          }
-          """
-
-          now = datetime.now(timezone.utc)
-          from_date = now.replace(year=now.year - 1)
-
-          payload = json.dumps({
-              "query": query,
-              "variables": {
-                  "login": username,
-                  "from": from_date.isoformat(),
-                  "to": now.isoformat(),
-              },
-          }).encode()
-
-          request = urllib.request.Request(
-              "https://api.github.com/graphql",
-              data=payload,
-              headers={
-                  "Authorization": f"Bearer {token}",
-                  "Content-Type": "application/json",
-                  "User-Agent": "gireeshvpai2007-maker-profile",
-              },
-          )
-
-          with urllib.request.urlopen(request) as response:
-              data = json.load(response)
-
-          if data.get("errors"):
-              raise RuntimeError(json.dumps(data["errors"], indent=2))
-
-          user = data["data"]["user"]
-          calendar = user["contributionsCollection"]["contributionCalendar"]
-
-          monthly = {}
-          for week in calendar["weeks"]:
-              for day in week["contributionDays"]:
-                  month = day["date"][:7]
-                  monthly[month] = monthly.get(month, 0) + day["contributionCount"]
-
-          items = list(sorted(monthly.items()))[-12:]
-          max_value = max([v for _, v in items] + [1])
-
-          width, height = 1100, 420
-          left, right, top, bottom = 420, 70, 80, 70
-          chart_width = width - left - right
-          chart_height = height - top - bottom
-
-          points = []
-          for i, (month, value) in enumerate(items):
-              x = left if len(items) == 1 else left + i / (len(items) - 1) * chart_width
-              y = top + chart_height - value / max_value * chart_height
-              points.append((x, y, month, value))
-
-          line = " ".join(f"{x:.2f},{y:.2f}" for x, y, _, _ in points)
-          base_y = top + chart_height
-          area = f"{left},{base_y} " + line + f" {left + chart_width},{base_y}"
-
-          def esc(s):
-              return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
-          total = calendar["totalContributions"]
-          repos = user["repositories"]["totalCount"]
-
-          labels = []
-          for x, _, month, _ in points:
-              dt = datetime.strptime(month, "%Y-%m")
-              labels.append(
-                  f'<text x="{x:.2f}" y="{base_y + 35}" text-anchor="middle" class="label">{dt.strftime("%y/%m")}</text>'
-              )
-
-          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-          <rect width="100%" height="100%" rx="12" fill="#0d1117"/>
-          <rect x="20" y="20" width="1060" height="380" rx="12" fill="#161b26"/>
-
-          <text x="55" y="75" class="username">{esc(username)}</text>
-          <text x="55" y="125" class="stat">◉ {total} Contributions on GitHub</text>
-          <text x="55" y="175" class="stat">▣ {repos} Public Repositories</text>
-          <text x="55" y="225" class="stat">◷ Contribution Journey</text>
-          <text x="55" y="275" class="stat">✦ Building every day</text>
-
-          <text x="800" y="70" text-anchor="middle" class="chart-title">contributions in the last year</text>
-
-          <line x1="{left}" y1="{base_y}" x2="{left + chart_width}" y2="{base_y}" class="axis"/>
-          <polygon points="{area}" class="area"/>
-          <polyline points="{line}" class="journey-line"/>
-
-          {''.join(labels)}
-
-          <style>
-            .username {{ fill:#79a7ff; font:32px Arial,sans-serif; }}
-            .stat {{ fill:#27d7c2; font:18px Arial,sans-serif; }}
-            .chart-title {{ fill:#27d7c2; font:16px Arial,sans-serif; }}
-            .label {{ fill:#27d7c2; font:12px Arial,sans-serif; }}
-            .axis {{ stroke:#27d7c2; stroke-width:2; }}
-            .journey-line {{ fill:none; stroke:#27d7c2; stroke-width:2; }}
-            .area {{ fill:#b88cff; opacity:.85; }}
-          </style>
-          </svg>'''
-
-          os.makedirs("assets", exist_ok=True)
-          with open("assets/contribution-journey.svg", "w", encoding="utf-8") as f:
-              f.write(svg)
-          PY
-
-      - name: Validate generated SVGs
-        run: |
-          test -s assets/activity-graph.svg
-          test -s assets/contribution-journey.svg
-          grep -q '<svg' assets/activity-graph.svg
-          grep -q '<svg' assets/contribution-journey.svg
-
-      - name: Commit generated graphs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add assets/activity-graph.svg assets/contribution-journey.svg
           if git diff --cached --quiet; then
-            echo "No graph changes."
+            echo 'No changes.'
           else
-            git commit -m "chore: update contribution graphs"
+            git commit -m 'chore: update contribution graphs'
             git push
           fi
