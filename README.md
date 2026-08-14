@@ -1,9 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20%7C%20Aspiring%20Software%20Engineer%20%7C%20AI%20%26%20Research&descAlignY=60&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20%40%20MIT%20Manipal%20%7C%20Aspiring%20Software%20Engineer&descAlignY=60&descSize=18"/>
 
 <br>
-
 <img src="./assets/particle-intro.gif" width="320" style="border-radius:50%;" alt="Gireesh V Pai"/>
 
 <br><br>
