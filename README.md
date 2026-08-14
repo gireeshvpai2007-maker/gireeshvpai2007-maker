@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20|%20Aspiring%20Software%20Engineer&descAlignY=60&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20@%20MIT%20Manipal%20%7C%20Aspiring%20Software%20Engineer%20%7C%20AI%20%26%20Research&descAlignY=60&descSize=18"/>
 
 <br>
 
@@ -29,8 +29,25 @@ public:
     string role = "Software Engineer in Progress";
     string university = "MIT Manipal";
     string degree = "B.Tech Computer Science";
-    vector<string> languages = {"Java", "C++", "Python", "JavaScript", "SQL"};
-    string mission = "Build software that solves real-world problems.";
+
+    vector<string> languages = {
+        "Java",
+        "C++",
+        "Python",
+        "JavaScript",
+        "SQL"
+    };
+
+    vector<string> interests = {
+        "Software Engineering",
+        "Data Structures & Algorithms",
+        "AI / ML",
+        "Data Analytics",
+        "Medical Imaging Research"
+    };
+
+    string mission =
+        "Build software, solve problems, and learn through research.";
 };
 ```
 
@@ -38,10 +55,28 @@ public:
 
 # 💡 About Me
 
-🎓 Computer Science student at **MIT Manipal**
-💻 Passionate about Software Engineering and problem-solving
-🌳 Practicing Data Structures & Algorithms consistently, working toward placements
-🚀 Building real projects to apply what I learn, not just tutorials
+🎓 Computer Science student at **MIT Manipal**  
+💻 Passionate about **Software Engineering, Algorithms, AI/ML, and problem-solving**  
+🌳 Practicing **Data Structures & Algorithms** consistently, with a current focus on graph algorithms  
+📊 Building projects in **Java, C++, Python, and Data Analytics** to apply what I learn  
+🔬 Exploring **AI-driven medical imaging research**, especially 2D-to-3D reconstruction and algorithm development  
+🚀 I prefer building and understanding systems from fundamentals rather than only following tutorials  
+
+---
+
+# 🔬 Research Focus
+
+Currently exploring interdisciplinary research at the intersection of **Computer Science, Algorithms, AI/ML, and Medical Imaging**.
+
+### Current Research Direction
+
+- 2D → 3D reconstruction in medical imaging
+- Computer vision and image processing
+- Algorithm development and optimization
+- AI/ML-assisted anatomical reconstruction
+- Experimental evaluation and reproducible research
+
+> 🚧 Research work is currently in progress. Project-specific unpublished details, datasets, and confidential research material are intentionally kept private.
 
 ---
 
@@ -57,6 +92,7 @@ public:
 A Java application demonstrating Object-Oriented Programming through a working media library and recommendation system.
 
 ### Concepts
+
 - Generics
 - Stream API
 - Collections
@@ -77,11 +113,12 @@ A Java application demonstrating Object-Oriented Programming through a working m
 Daily LeetCode practice with clean, optimized C++ solutions and consistent GitHub commits.
 
 ### Topics
+
+- Arrays
 - Binary Search
 - Trees
 - Stack
 - Queue
-- Arrays
 - Recursion
 - Two Pointers
 
@@ -102,14 +139,14 @@ Daily LeetCode practice with clean, optimized C++ solutions and consistent GitHu
 An interview-focused repository containing implementations and solutions in modern C++.
 
 ### Covered
+
 - Arrays
 - Strings
 - Binary Search
 - Trees
 - Linked Lists
 - Recursion
-- Pattern Problems
-- Graph
+- Graph Algorithms
 - Stack
 - Queue
 
@@ -126,6 +163,7 @@ An interview-focused repository containing implementations and solutions in mode
 A responsive website built for a real travel agency business, with WhatsApp enquiry integration and a modern UI.
 
 ### Features
+
 - Responsive Design
 - Dark Mode
 - WhatsApp Enquiry
@@ -150,13 +188,12 @@ A responsive website built for a real travel agency business, with WhatsApp enqu
 
 Python/Jupyter notebooks exploring real-world datasets through visualization, including sentiment analysis with word clouds.
 
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Emotion%20Analysis/image/wordcloud.png" width="90%">
 </p>
 
-
 ### Highlights
+
 - Exploratory Data Analysis
 - Word Cloud Generation
 - Statistical Visualization
@@ -183,9 +220,11 @@ Python/Jupyter notebooks exploring real-world datasets through visualization, in
 A business analytics tool that turns raw CSV datasets into visualizations and predictive insights using machine learning.
 
 ### Features
+
 - Automated Data Visualization
 - ML-based Predictions
 - Interactive Dashboard
+- Data Analysis Pipeline
 
 <img src="https://skillicons.dev/icons?i=python,flask,pandas,numpy,sklearn,jupyter"/>
 
@@ -204,6 +243,7 @@ A business analytics tool that turns raw CSV datasets into visualizations and pr
 Projects completed while earning Responsive Web Design and JavaScript certifications.
 
 ### Includes
+
 - Responsive Websites
 - CSS Projects
 - JavaScript Challenges
@@ -216,11 +256,30 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
 
 <td width="50%" valign="top">
 
+## 🔬 MedVision-2D3D *(Research)*
+
+A research repository exploring AI-driven **2D-to-3D reconstruction in medical imaging**, with a focus on algorithm development, experimentation, and evaluation.
+
+### Research Areas
+
+- Medical Image Processing
+- 2D → 3D Reconstruction
+- Computer Vision
+- Algorithm Development
+- AI / Machine Learning
+- Experimental Evaluation
+
+<img src="https://skillicons.dev/icons?i=python,opencv,pytorch"/>
+
+🚧 **Research in progress**
+
 </td>
 
 </tr>
 
 </table>
+
+---
 
 # 🛠 Tech Stack
 
@@ -233,12 +292,16 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
 # 📚 Currently Learning
 
 ```text
-🌳 Trees & Binary Search Trees
-📈 Graph Algorithms
+🧠 Dijkstra's Algorithm & Shortest Paths
+🕸️ Graph Theory & Havel–Hakimi
+📈 Kendall's Tau & Statistical Correlation
+💡 Digital Systems & Computer Organization
+🔬 AI / Medical Image Processing
 ⚡ Dynamic Programming
 ```
 
 ---
+
 # 📊 GitHub Analytics
 
 <div align="center">
@@ -250,9 +313,8 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
 <br><br>
 
 <img width="98%" src="./profile/streak.svg" alt="GitHub Streak"/>
-<br>
 
-<!-- ================= GitHub Activity ================= -->
+<br><br>
 
 <h2 align="center">📊 GitHub Activity</h2>
 
@@ -264,8 +326,6 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
   />
 </p>
 
-<!-- ================= Contribution Journey ================= -->
-
 <h2 align="center">🚀 Contribution Journey</h2>
 
 <p align="center">
@@ -276,20 +336,32 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
   />
 </p>
 
-
 </div>
+
 ---
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" width="95%">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg"
+  />
+
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"
+    width="95%"
+  />
 </picture>
 
-<br>
+<br><br>
 
-<i>Code. Learn. Build. Repeat.</i>
+<i>Code. Learn. Build. Research. Repeat.</i>
 
 </div>
