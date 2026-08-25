@@ -11,13 +11,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=CSE+Student+%7C+Aspiring+SDE;Java+%7C+C%2B%2B+%7C+Python;Data+Structures+%26+Algorithms;AI+%7C+Data+Analytics+%7C+Research;Building+%26+Learning+Every+Day" />
 
 <br>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="gireeshvpai2007-maker's GitHub profile" src="dark_mode.svg" />
-</picture>
-<br>
+
 <br>
 
 <img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0EA5E9"/>
@@ -28,6 +22,13 @@
 ✨ **[Try the interactive version →](https://gireeshvpai2007-maker.github.io/particle-intro)**
 
 </div>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="gireeshvpai2007-maker's GitHub profile" src="dark_mode.svg" />
+</picture>
+<br>
 
 # 👋 Hello, I'm Gireesh
 
