@@ -96,6 +96,31 @@ Currently exploring interdisciplinary research at the intersection of **Computer
 
 <td width="50%" valign="top">
 
+## 🧠 Amchi
+
+A programming language inspired by GSB Konkani, built from scratch in C++. The project explores compiler and interpreter fundamentals through language design, lexing, parsing, AST construction, and interpretation.
+
+### Implemented
+
+- Custom language syntax and keywords
+- Lexer / Token system
+- Recursive-descent parser
+- Abstract Syntax Tree (AST)
+- Variables and reassignment
+- Arithmetic, comparison & logical expressions
+- Operator precedence
+- If / else statements
+- String literals
+- Built-in output
+
+<img src="https://skillicons.dev/icons?i=cpp"/>
+
+🔗 **Repository:** https://github.com/gireeshvpai2007-maker/Amchi
+
+</td>
+
+<td width="50%" valign="top">
+
 ## ☕ StreamVault
 
 A Java application demonstrating Object-Oriented Programming through a working media library and recommendation system.
@@ -114,6 +139,10 @@ A Java application demonstrating Object-Oriented Programming through a working m
 🔗 **Repository:** https://github.com/gireeshvpai2007-maker/OOP-Implementation
 
 </td>
+
+</tr>
+
+<tr>
 
 <td width="50%" valign="top">
 
@@ -136,10 +165,6 @@ Daily LeetCode practice with clean, optimized C++ solutions and consistent GitHu
 🔗 **Repository:** https://github.com/gireeshvpai2007-maker/LeetCode
 
 </td>
-
-</tr>
-
-<tr>
 
 <td width="50%" valign="top">
 
@@ -165,6 +190,10 @@ An interview-focused repository containing implementations and solutions in mode
 
 </td>
 
+</tr>
+
+<tr>
+
 <td width="50%" valign="top">
 
 ## 🚌 Vishnu Tours & Travels
@@ -186,10 +215,6 @@ A responsive website built for a real travel agency business, with WhatsApp enqu
 🔗 **Repository:** https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
 
 </td>
-
-</tr>
-
-<tr>
 
 <td width="50%" valign="top">
 
@@ -222,6 +247,10 @@ Python/Jupyter notebooks exploring real-world datasets through visualization, in
 
 </td>
 
+</tr>
+
+<tr>
+
 <td width="50%" valign="top">
 
 ## 🤖 InsightAI *(In Progress)*
@@ -241,10 +270,6 @@ A business analytics tool that turns raw CSV datasets into visualizations and pr
 
 </td>
 
-</tr>
-
-<tr>
-
 <td width="50%" valign="top">
 
 ## 🌐 freeCodeCamp Projects
@@ -262,6 +287,10 @@ Projects completed while earning Responsive Web Design and JavaScript certificat
 🔗 **Repository:** https://github.com/gireeshvpai2007-maker/FreeCodeCamp
 
 </td>
+
+</tr>
+
+<tr>
 
 <td width="50%" valign="top">
 
@@ -301,12 +330,12 @@ A research repository exploring AI-driven **2D-to-3D reconstruction in medical i
 # 📚 Currently Learning
 
 ```text
-🧠 Dijkstra's Algorithm & Shortest Paths
-🕸️ Graph Theory & Havel–Hakimi
-📈 Kendall's Tau & Statistical Correlation
-💡 Digital Systems & Computer Organization
-🔬 AI / Medical Image Processing
-⚡ Dynamic Programming
+🌳 Data Structures & Algorithms — Trees, BSTs & Graph Algorithms
+⚡ Dynamic Programming & Problem Solving
+⚙️ Digital Systems & Computer Organization — Verilog
+🤖 AI / Machine Learning & Computer Vision
+🧠 Compiler Development — Lexing, Parsing, ASTs & Interpreters
+💻 Full-Stack Development — React, Node.js & Deployment
 ```
 
 ---
