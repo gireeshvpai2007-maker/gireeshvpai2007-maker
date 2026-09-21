@@ -25,13 +25,12 @@ jobs:
         env:
           HANDLE: gireeshvpai2007-maker
           GH_ASCII_URL: https://gh.crafter.run
-          COLS: "60"
         run: |
           curl -fsSL --retry 3 --retry-delay 5 \
-            "$GH_ASCII_URL/$HANDLE?theme=dark&cols=$COLS" \
+            "$GH_ASCII_URL/$HANDLE?theme=dark&cols=60" \
             -o dark_mode.svg
           curl -fsSL --retry 3 --retry-delay 5 \
-            "$GH_ASCII_URL/$HANDLE?theme=light&cols=$COLS" \
+            "$GH_ASCII_URL/$HANDLE?theme=light&cols=60" \
             -o light_mode.svg
 
       - name: Update README cache-buster only when the card changed
