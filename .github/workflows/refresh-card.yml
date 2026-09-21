@@ -3,9 +3,6 @@
 name: Refresh gh-ascii card
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "17 6 * * *"
   workflow_dispatch:
@@ -29,14 +26,23 @@ jobs:
           HANDLE: gireeshvpai2007-maker
           GH_ASCII_URL: https://gh.crafter.run
         run: |
-          curl -fsSL --retry 3 --retry-delay 5             "$GH_ASCII_URL/$HANDLE?theme=dark"             -o dark_mode.svg
-          curl -fsSL --retry 3 --retry-delay 5             "$GH_ASCII_URL/$HANDLE?theme=light"             -o light_mode.svg
+          curl -fsSL --retry 3 --retry-delay 5 \
+            "$GH_ASCII_URL/$HANDLE?theme=dark" \
+            -o dark_mode.svg
+          curl -fsSL --retry 3 --retry-delay 5 \
+            "$GH_ASCII_URL/$HANDLE?theme=light" \
+            -o light_mode.svg
 
-      - name: Commit only if the card changed
+      - name: Update README image cache-buster
+        run: |
+          VERSION=$(date -u +%Y%m%d%H%M%S)
+          sed -i -E "s#dark_mode\\?v=[0-9]+#dark_mode?v=$VERSION#g; s#light_mode\\?v=[0-9]+#light_mode?v=$VERSION#g" README.md
+
+      - name: Commit refreshed card and cache-buster
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg
+          git add dark_mode.svg light_mode.svg README.md
           if git diff --cached --quiet; then
             echo "Card unchanged — nothing to commit."
           else
