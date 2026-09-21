@@ -1,11 +1,11 @@
 # gh-ascii — daily profile card refresh
-#
-# Keeps dark_mode.svg and light_mode.svg current with GitHub profile stats.
-# The workflow runs daily and can also be started manually from Actions.
 
 name: Refresh gh-ascii card
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "17 6 * * *"
   workflow_dispatch:
