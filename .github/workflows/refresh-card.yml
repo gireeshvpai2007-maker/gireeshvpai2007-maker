@@ -33,6 +33,11 @@ jobs:
             "$GH_ASCII_URL/$HANDLE?theme=light&cols=60" \
             -o light_mode.svg
 
+      - name: Remove cluttered contribution graph
+        run: |
+          sed -i '/fill="#39d353"/d' dark_mode.svg
+          sed -i '/fill="#39d353"/d' light_mode.svg
+
       - name: Update README cache-buster only when the card changed
         id: changed
         run: |
