@@ -25,27 +25,38 @@ jobs:
         env:
           HANDLE: gireeshvpai2007-maker
           GH_ASCII_URL: https://gh.crafter.run
+          COLS: "60"
         run: |
           curl -fsSL --retry 3 --retry-delay 5 \
-            "$GH_ASCII_URL/$HANDLE?theme=dark" \
+            "$GH_ASCII_URL/$HANDLE?theme=dark&cols=$COLS" \
             -o dark_mode.svg
           curl -fsSL --retry 3 --retry-delay 5 \
-            "$GH_ASCII_URL/$HANDLE?theme=light" \
+            "$GH_ASCII_URL/$HANDLE?theme=light&cols=$COLS" \
             -o light_mode.svg
 
-      - name: Update README image cache-buster
+      - name: Update README cache-buster only when the card changed
+        id: changed
         run: |
-          VERSION=$(date -u +%Y%m%d%H%M%S)
-          sed -i -E "s#dark_mode\\?v=[0-9]+#dark_mode?v=$VERSION#g; s#light_mode\\?v=[0-9]+#light_mode?v=$VERSION#g" README.md
+          if git diff --quiet -- dark_mode.svg light_mode.svg; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Card unchanged."
+            exit 0
+          fi
 
-      - name: Commit refreshed card and cache-buster
+          VERSION=$(date -u +%Y%m%d%H%M%S)
+          sed -i -E \
+            "s#dark_mode\\.svg(\\?v=[0-9]+)?#dark_mode.svg?v=$VERSION#g; \
+             s#light_mode\\.svg(\\?v=[0-9]+)?#light_mode.svg?v=$VERSION#g" \
+            README.md
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "Cache version: $VERSION"
+
+      - name: Commit refreshed card
+        if: steps.changed.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dark_mode.svg light_mode.svg README.md
-          if git diff --cached --quiet; then
-            echo "Card unchanged — nothing to commit."
-          else
-            git commit -m "chore: refresh gh-ascii card"
-            git push
-          fi
+          git commit -m "chore: refresh gh-ascii card"
+          git push
