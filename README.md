@@ -1,351 +1,261 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:7DD3FC,100:0EA5E9&text=Gireesh%20V%20Pai&fontColor=ffffff&fontSize=58&animation=twinkling&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20%40%20MIT%20Manipal%20%7C%20Aspiring%20Software%20Engineer&descAlignY=60&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F172A,35:164E63,70:0E7490,100:7C3AED&text=Gireesh%20V%20Pai&fontColor=F8FAFC&fontSize=58&animation=twinkling&fontAlignY=36&desc=COMPUTER%20SCIENCE%20%E2%80%A2%20SOFTWARE%20%E2%80%A2%20AI%20%E2%80%A2%20RESEARCH&descAlignY=59&descSize=17"/>
 
 <br>
-<img src="./assets/particle-intro.gif" width="320" style="border-radius:50%;" alt="Gireesh V Pai"/>
+
+<img src="./assets/particle-intro.gif" width="300" alt="Gireesh V Pai — interactive particle profile preview"/>
 
 <br><br>
 
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=900&lines=CSE+Student+%7C+Aspiring+SDE;Java+%7C+C%2B%2B+%7C+Python;Data+Structures+%26+Algorithms;AI+%7C+Data+Analytics+%7C+Research;Building+%26+Learning+Every+Day" />
-
-<br>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0EA5E9"/>
-<img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=0EA5E9"/>
+<a href="https://gireeshvpai2007-maker.github.io/particle-intro"><img src="https://img.shields.io/badge/✦_Explore_my_interactive_portfolio-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Interactive portfolio"/></a>
 
 <br><br>
 
-✨ **[Try the interactive version →](https://gireeshvpai2007-maker.github.io/particle-intro)**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=67E8F9&center=true&vCenter=true&width=900&lines=MIT+Manipal+%7C+B.Tech+Computer+Science;Software+Engineering+%26+Problem+Solving;AI%2FML+%7C+Data+Analytics+%7C+Computer+Vision;Networking+Tools+%7C+Compiler+Fundamentals;Building+Projects.+Learning+Deeply.+Shipping+Code." alt="Animated introduction"/>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0891B2&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=7C3AED&label=FOLLOWERS" alt="GitHub followers"/>
+<img src="https://img.shields.io/badge/OPEN_TO-LEARNING%20%26%20COLLABORATION-0F766E?style=for-the-badge" alt="Open to learning and collaboration"/>
 
 </div>
-<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=20261015113436" />
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=20261015113436" />
-  <img alt="gireeshvpai2007-maker's GitHub profile" src="dark_mode.svg?v=20261015113436" />
+  <img alt="GitHub profile overview" src="dark_mode.svg?v=20261015113436" />
 </picture>
-<br>
 
-# 👋 Hello, I'm Gireesh
+---
+
+## 👋 Hey, I'm Gireesh
+
+**Computer Science undergraduate at MIT Manipal** interested in building useful software, understanding systems from first principles, and applying AI to real problems.
+
+I enjoy moving between the fundamentals—data structures, algorithms, networking, and digital systems—and projects that put those concepts to work.
 
 ```cpp
 class Gireesh {
 public:
     string role = "Software Engineer in Progress";
     string university = "MIT Manipal";
-    string degree = "B.Tech Computer Science";
 
-    vector<string> languages = {
-        "Java",
-        "C++",
-        "Python",
-        "JavaScript",
-        "SQL"
-    };
-
-    vector<string> interests = {
-        "Software Engineering",
+    vector<string> focus = {
         "Data Structures & Algorithms",
-        "AI / ML",
-        "Data Analytics",
-        "Medical Imaging Research"
+        "AI / ML and Data Analytics",
+        "Computer Vision Research",
+        "Networking and Systems",
+        "Compiler Fundamentals"
     };
 
-    string mission =
-        "Build software, solve problems, and learn through research.";
+    string philosophy =
+        "Understand the why. Build the thing. Improve it.";
 };
 ```
 
----
-
-# 💡 About Me
-
-🎓 Computer Science student at **MIT Manipal**  
-💻 Passionate about **Software Engineering, Algorithms, AI/ML, and problem-solving**  
-🌳 Practicing **Data Structures & Algorithms** consistently, with a current focus on graph algorithms  
-📊 Building projects in **Java, C++, Python, and Data Analytics** to apply what I learn  
-🔬 Exploring **AI-driven medical imaging research**, especially 2D-to-3D reconstruction and algorithm development  
-🚀 I prefer building and understanding systems from fundamentals rather than only following tutorials  
-
----
-
-# 🔬 Research Focus
-
-Currently exploring interdisciplinary research at the intersection of **Computer Science, Algorithms, AI/ML, and Medical Imaging**.
-
-### Current Research Direction
-
-- 2D → 3D reconstruction in medical imaging
-- Computer vision and image processing
-- Algorithm development and optimization
-- AI/ML-assisted anatomical reconstruction
-- Experimental evaluation and reproducible research
-
-> 🚧 Research work is currently in progress. Project-specific unpublished details, datasets, and confidential research material are intentionally kept private.
-
----
-
-# 🚀 Featured Projects
+## ⚡ What I'm building now
 
 <table>
 <tr>
-
 <td width="50%" valign="top">
 
-## 🧠 Amchi
+### 🦿 [MedVision-2D3D](https://github.com/gireeshvpai2007-maker/MedVision-2D3D)
+**Medical imaging research**
 
-A programming language inspired by GSB Konkani, built from scratch in C++. The project explores compiler and interpreter fundamentals through language design, lexing, parsing, AST construction, and interpretation.
+Exploring a knee-landmark pipeline as part of a research project focused on 2D-to-3D reconstruction.
 
-### Implemented
+- 20-landmark heatmap generation
+- CNN-based landmark model
+- Heatmap decoding and coordinate handling
+- Dataset inspection and evaluation foundations
 
-- Custom language syntax and keywords
-- Lexer / Token system
-- Recursive-descent parser
-- Abstract Syntax Tree (AST)
-- Variables and reassignment
-- Arithmetic, comparison & logical expressions
-- Operator precedence
-- If / else statements
-- String literals
-- Built-in output
-
-<img src="https://skillicons.dev/icons?i=cpp"/>
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/Amchi
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv"/>
 
 </td>
-
 <td width="50%" valign="top">
 
-## ☕ StreamVault
+### 🌐 [NetForge](https://github.com/gireeshvpai2007-maker/NetForge)
+**Networking lab & packet analysis**
 
-A Java application demonstrating Object-Oriented Programming through a working media library and recommendation system.
+A hands-on networking project connecting protocol concepts with real packet-level experiments.
 
-### Concepts
+- TCP client/server experiments
+- Packet inspection using TShark / Wireshark
+- Python-based packet analysis
+- Building toward connection tracking and routing concepts
 
-- Generics
-- Stream API
-- Collections
-- Enums
-- Composition
-- Factory Pattern
-
-<img src="https://skillicons.dev/icons?i=java"/>
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/OOP-Implementation
+<img src="https://skillicons.dev/icons?i=python,wireshark,linux"/>
 
 </td>
-
 </tr>
-
 <tr>
-
 <td width="50%" valign="top">
 
-## 💻 LeetCode Solutions
+### 📈 [InsightAI](https://github.com/gireeshvpai2007-maker/InsightAI)
+**AI-powered business analytics**
 
-Daily LeetCode practice with clean, optimized C++ solutions and consistent GitHub commits.
+Turning tabular data into analysis, visualizations, predictive models, and actionable insights.
 
-### Topics
+- Data cleaning and feature engineering
+- Exploratory data analysis
+- Regression model evaluation
+- Interactive analytics dashboard in progress
 
-- Arrays
-- Binary Search
-- Trees
-- Stack
-- Queue
-- Recursion
-- Two Pointers
-
-<img src="https://skillicons.dev/icons?i=cpp"/>
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/LeetCode
+<img src="https://skillicons.dev/icons?i=python,streamlit,sklearn,pandas,numpy"/>
 
 </td>
-
 <td width="50%" valign="top">
 
-## 🌳 Data Structures & Algorithms
+### 🚀 [FellaFlywheel — M#2026](https://github.com/gireeshvpai2007-maker/M-2026)
+**Hackathon team project**
 
-An interview-focused repository containing implementations and solutions in modern C++.
+A cold-start growth concept for FellaRide, using public signals to identify potential drivers, passengers, connectors, and early adopters.
 
-### Covered
-
-- Arrays
-- Strings
-- Binary Search
-- Trees
-- Linked Lists
-- Recursion
-- Graph Algorithms
-- Stack
-- Queue
-
-<img src="https://skillicons.dev/icons?i=cpp"/>
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/DataStructures
+- Signal-driven user discovery
+- Early-adopter segmentation
+- Targeted growth interventions
+- Team-based solution design
 
 </td>
-
 </tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🚌 Vishnu Tours & Travels
-
-A responsive website built for a real travel agency business, with WhatsApp enquiry integration and a modern UI.
-
-### Features
-
-- Responsive Design
-- Dark Mode
-- WhatsApp Enquiry
-- Contact Form
-- Modern UI
-
-<img src="https://skillicons.dev/icons?i=html,css,js"/>
-
-🌐 **Live:** https://vishnu-tours-travels.netlify.app
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website
-
-</td>
-
-<td width="50%" valign="top">
-
-## 📊 Data Visualisation
-
-Python/Jupyter notebooks exploring real-world datasets through visualization, including sentiment analysis with word clouds.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Emotion%20Analysis/image/wordcloud.png" width="90%">
-</p>
-
-### Highlights
-
-- Exploratory Data Analysis
-- Word Cloud Generation
-- Statistical Visualization
-- Data Cleaning
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,jupyter"/>
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
-</p>
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/Data-Visualisation
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🤖 InsightAI *(In Progress)*
-
-A business analytics tool that turns raw CSV datasets into visualizations and predictive insights using machine learning.
-
-### Features
-
-- Automated Data Visualization
-- ML-based Predictions
-- Interactive Dashboard
-- Data Analysis Pipeline
-
-<img src="https://skillicons.dev/icons?i=python,flask,pandas,numpy,sklearn,jupyter"/>
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/InsightAI
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🌐 freeCodeCamp Projects
-
-Projects completed while earning Responsive Web Design and JavaScript certifications.
-
-### Includes
-
-- Responsive Websites
-- CSS Projects
-- JavaScript Challenges
-
-<img src="https://skillicons.dev/icons?i=html,css,js"/>
-
-🔗 **Repository:** https://github.com/gireeshvpai2007-maker/FreeCodeCamp
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🔬 MedVision-2D3D *(Research)*
-
-A research repository exploring AI-driven **2D-to-3D reconstruction in medical imaging**, with a focus on algorithm development, experimentation, and evaluation.
-
-### Research Areas
-
-- Medical Image Processing
-- 2D → 3D Reconstruction
-- Computer Vision
-- Algorithm Development
-- AI / Machine Learning
-- Experimental Evaluation
-
-<img src="https://skillicons.dev/icons?i=python,opencv,pytorch"/>
-
-🚧 **Research in progress**
-
-</td>
-
-</tr>
-
 </table>
 
 ---
 
-# 🛠 Tech Stack
+## 🧩 More projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 [Amchi](https://github.com/gireeshvpai2007-maker/Amchi)
+A C++ language project inspired by GSB Konkani, exploring how programming languages work under the hood.
+
+- Lexer and token system
+- Recursive-descent parser
+- Abstract Syntax Tree (AST)
+- Variables, expressions, precedence
+- Conditional statements and output
+
+<img src="https://skillicons.dev/icons?i=cpp"/>
+
+</td>
+<td width="50%" valign="top">
+
+### ☕ [StreamVault](https://github.com/gireeshvpai2007-maker/OOP-Implementation)
+A Java media-library and recommendation project built to practice object-oriented design.
+
+- OOP and composition
+- Collections, generics, enums
+- Java Stream API
+- Factory-pattern concepts
+
+<img src="https://skillicons.dev/icons?i=java"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🚌 [Vishnu Tours & Travels](https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website)
+A responsive website for a real travel-agency business, with customer enquiry flows.
+
+- Responsive UI and dark mode
+- WhatsApp enquiry integration
+- Contact form and deployment
+
+🌐 [View live website](https://vishnu-tours-travels.netlify.app)
+
+<img src="https://skillicons.dev/icons?i=html,css,js"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 [Data Visualisation](https://github.com/gireeshvpai2007-maker/Data-Visualisation)
+Python/Jupyter exploration of datasets, including emotion analysis and word-cloud visualization.
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=java,cpp,py,js,html,css,mysql,git,github,vscode,linux"/>
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Emotion%20Analysis/image/wordcloud.png" width="90%" alt="Emotion analysis word cloud"/>
+</p>
+
+<img src="https://skillicons.dev/icons?i=python,jupyter"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌳 [Data Structures](https://github.com/gireeshvpai2007-maker/DataStructures)
+Implementations and practice focused on core programming and interview fundamentals.
+
+- Arrays, strings, linked lists
+- Stacks, queues, recursion
+- Binary trees and BSTs
+- Searching, sorting, and algorithms
+
+<img src="https://skillicons.dev/icons?i=c,cpp"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 💻 [freeCodeCamp Projects](https://github.com/gireeshvpai2007-maker/FreeCodeCamp)
+Web development projects and exercises completed while learning frontend fundamentals.
+
+- HTML and responsive CSS
+- JavaScript challenges
+- Responsive website layouts
+
+<img src="https://skillicons.dev/icons?i=html,css,js"/>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech stack
+
+<p align="center">
+  <strong>LANGUAGES</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,html,css,sql" alt="C, C++, Java, Python, JavaScript, HTML, CSS, SQL"/>
+</p>
+
+<p align="center">
+  <strong>AI · DATA · WEB</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,pandas,numpy,matplotlib,streamlit,flask" alt="PyTorch, OpenCV, scikit-learn, pandas, NumPy, Matplotlib, Streamlit, Flask"/>
+</p>
+
+<p align="center">
+  <strong>TOOLS · SYSTEMS · WORKFLOW</strong><br><br>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash,verilog" alt="Git, GitHub, VS Code, Linux, MySQL, Bash, Verilog"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20TShark%20%7C%20Wireshark-0E7490?style=flat-square&logo=wireshark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Workflow-Git%20%7C%20GitHub%20Actions-7C3AED?style=flat-square&logo=githubactions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EDA-Pandas%20%7C%20NumPy%20%7C%20Matplotlib-0F766E?style=flat-square"/>
 </p>
 
 ---
 
-# 📚 Currently Learning
+## 🧭 Currently learning
 
-```text
-🌳 Data Structures & Algorithms — Trees, BSTs & Graph Algorithms
-⚡ Dynamic Programming & Problem Solving
-⚙️ Digital Systems & Computer Organization — Verilog
-🤖 AI / Machine Learning & Computer Vision
-🧠 Compiler Development — Lexing, Parsing, ASTs & Interpreters
-💻 Full-Stack Development — React, Node.js & Deployment
-```
+- **DSA:** binary trees, BST validation, traversal patterns, complexity analysis, and interview problem-solving
+- **Machine learning:** model evaluation, feature engineering, and practical experimentation
+- **Computer vision:** landmark heatmaps, coordinate decoding, and model evaluation
+- **Computer networks:** TCP connection tracking, packet analysis, and routing protocols
+- **Digital systems:** sequential logic and Verilog simulation
+- **Language implementation:** parsing, ASTs, and interpreter design
 
 ---
 
-# 📊 GitHub Analytics
+## 📊 GitHub analytics
 
 <div align="center">
 
 <img width="49%" src="./profile/stats.svg" alt="GitHub Stats"/>
-
 <img width="49%" src="./profile/top-langs.svg" alt="Top Languages"/>
 
 <br><br>
@@ -354,52 +264,33 @@ A research repository exploring AI-driven **2D-to-3D reconstruction in medical i
 
 <br><br>
 
-<h2 align="center">📊 GitHub Activity</h2>
+<h3>Activity over time</h3>
+<img src="./assets/activity-graph.svg" alt="GitHub contribution activity line graph" width="96%"/>
 
-<p align="center">
-  <img
-    src="./assets/activity-graph.svg"
-    alt="GitHub Contribution Activity"
-    width="900"
-  />
-</p>
+<br><br>
 
-<h2 align="center">🚀 Contribution Journey</h2>
-
-<p align="center">
-  <img
-    src="./assets/contribution-journey.svg"
-    alt="GitHub Contribution Journey"
-    width="1000"
-  />
-</p>
+<h3>Contribution journey</h3>
+<img src="./assets/contribution-journey.svg" alt="GitHub contribution journey" width="96%"/>
 
 </div>
 
 ---
 
+## 🐍 Keep the commits coming
+
 <div align="center">
-
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg"
-  />
-
-  <img
-    alt="GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"
-    width="95%"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 </picture>
 
 <br><br>
 
-<i>Code. Learn. Build. Research. Repeat.</i>
+<a href="https://gireeshvpai2007-maker.github.io/particle-intro"><img src="https://img.shields.io/badge/PORTFOLIO-Explore%20the%20interactive%20site-0F172A?style=for-the-badge&logo=githubpages&logoColor=67E8F9"/></a>
+
+<br><br>
+
+<i>Understand the why. Build the thing. Improve it.</i>
 
 </div>
