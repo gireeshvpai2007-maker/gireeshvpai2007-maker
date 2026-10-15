@@ -24,9 +24,9 @@
 </div>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=20261014115754" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=20261014115754" />
-  <img alt="gireeshvpai2007-maker's GitHub profile" src="dark_mode.svg?v=20261014115754" />
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=20261015113436" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=20261015113436" />
+  <img alt="gireeshvpai2007-maker's GitHub profile" src="dark_mode.svg?v=20261015113436" />
 </picture>
 <br>
 
