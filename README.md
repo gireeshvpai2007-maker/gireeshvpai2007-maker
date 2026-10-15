@@ -287,7 +287,7 @@ Web development projects and exercises completed while learning frontend fundame
 
 <br><br>
 
-<a href="https://gireeshvpai2007-maker.github.io/particle-intro"><img src="https://img.shields.io/badge/PORTFOLIO-Explore%20the%20interactive%20site-0F172A?style=for-the-badge&logo=githubpages&logoColor=67E8F9"/></a>
+<i>Understand the why. Build the thing. Improve it.</i>
 
 <br><br>
 
