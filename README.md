@@ -8,7 +8,7 @@
 
 <br><br>
 
-<a href="https://gireeshvpai2007-maker.github.io/particle-intro"><img src="https://img.shields.io/badge/✦_Explore_my_interactive_portfolio-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Interactive portfolio"/></a>
+<a href="https://github.com/gireeshvpai2007-maker?tab=repositories"><img src="https://img.shields.io/badge/✦_Explore_my_projects-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Explore my GitHub projects"/></a>
 
 <br><br>
 
@@ -108,15 +108,17 @@ Turning tabular data into analysis, visualizations, predictive models, and actio
 </td>
 <td width="50%" valign="top">
 
-### 🚀 [FellaFlywheel — M#2026](https://github.com/gireeshvpai2007-maker/M-2026)
-**Hackathon team project**
+### 🏏 [T20 Match Analytics & Penalty Engine](https://github.com/gireeshvpai2007-maker/T20_Match_Analytics)
+**Verilog digital-systems project**
 
-A cold-start growth concept for FellaRide, using public signals to identify potential drivers, passengers, connectors, and early adopters.
+A modular hardware design for cricket score tracking and live match-display logic.
 
-- Signal-driven user discovery
-- Early-adopter segmentation
-- Targeted growth interventions
-- Team-based solution design
+- Score aggregation and over-rate subtraction
+- Target comparison using a ripple-carry subtractor
+- Penalty trigger and display multiplexer
+- Integrated testbench and waveform-based verification
+
+<img src="https://skillicons.dev/icons?i=verilog" alt="Verilog"/>
 
 </td>
 </tr>
@@ -229,7 +231,9 @@ Web development projects and exercises completed while learning frontend fundame
 
 <p align="center">
   <strong>TOOLS · SYSTEMS · WORKFLOW</strong><br><br>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash,verilog" alt="Git, GitHub, VS Code, Linux, MySQL, Bash, Verilog"/>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash" alt="Git, GitHub, VS Code, Linux, MySQL, Bash"/><br><br>
+  <img src="https://img.shields.io/badge/HDL-Verilog-7C3AED?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Simulation-Icarus%20Verilog%20%7C%20GTKWave-0E7490?style=flat-square"/>
 </p>
 
 <p align="center">
@@ -284,10 +288,6 @@ Web development projects and exercises completed while learning frontend fundame
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg"/>
   <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 </picture>
-
-<br><br>
-
-<i>Understand the why. Build the thing. Improve it.</i>
 
 <br><br>
 
