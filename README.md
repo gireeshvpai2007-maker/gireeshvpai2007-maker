@@ -55,6 +55,18 @@ public:
 };
 ```
 
+## 📊 Featured: InsightAI — Data Analytics
+
+My current data analytics project explores an end-to-end workflow for cleaning tabular data, performing exploratory analysis, evaluating regression models, and presenting results through a Streamlit dashboard.
+
+- **Current experiment:** house-price regression with Linear Regression (R² 0.8993; MAPE 5.31%).
+- **Workflow:** preprocessing → EDA → model evaluation → prediction/dashboard.
+- **Stack:** Python, Pandas, NumPy, scikit-learn, Streamlit.
+
+[Explore the InsightAI repository and README →](https://github.com/gireeshvpai2007-maker/InsightAI)
+
+---
+
 ## ⚡ What I'm building now
 
 <table>
