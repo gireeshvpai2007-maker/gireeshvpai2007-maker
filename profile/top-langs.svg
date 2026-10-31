@@ -198,19 +198,19 @@
           data-testid="lang-progress"
           x="249.81999999999996"
           y="0"
-          width="10.09"
+          width="10.1"
           height="8"
-          fill="#4d41b1"
+          fill="#b2b7f8"
         />
       
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.90999999999997"
+          x="249.91999999999996"
           y="0"
           width="10.09"
           height="8"
-          fill="#007800"
+          fill="#4d41b1"
         />
       
       
@@ -259,16 +259,16 @@
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#4d41b1" />
+      <circle cx="5" cy="6" r="5" fill="#b2b7f8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Fortran 0.04%
+        Verilog 0.04%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
-      <circle cx="5" cy="6" r="5" fill="#007800" />
+      <circle cx="5" cy="6" r="5" fill="#4d41b1" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Meson 0.04%
+        Fortran 0.04%
       </text>
     </g>
   </g></g>
