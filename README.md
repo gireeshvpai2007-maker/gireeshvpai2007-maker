@@ -1,14 +1,4 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F172A,35:164E63,70:0E7490,100:7C3AED&text=Gireesh%20V%20Pai&fontColor=F8FAFC&fontSize=58&animation=twinkling&fontAlignY=36&desc=COMPUTER%20SCIENCE%20%E2%80%A2%20SOFTWARE%20%E2%80%A2%20AI%20%E2%80%A2%20RESEARCH&descAlignY=59&descSize=17"/>
-
-<br>
-
-<img src="./assets/particle-intro.gif" width="300" alt="Gireesh V Pai — interactive particle profile preview"/>
-
-<br><br>
-
-<a href="https://github.com/gireeshvpai2007-maker?tab=repositories"><img src="https://img.shields.io/badge/✦_Explore_my_projects-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Explore my GitHub projects"/></a>
+<div align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F172A,35:164E63,70:0E7490,100:7C3AED&text=Gireesh%20V%20Pai&fontColor=F8FAFC&fontSize=58&animation=twinkling&fontAlignY=36&desc=COMPUTER%20SCIENCE%20%E2%80%A2%20SOFTWARE%20%E2%80%A2%20AI%20%E2%80%A2%20RESEARCH&descAlignY=59&descSize=17"/> <br> <img src="./assets/particle-intro.gif" width="300" alt="Gireesh V Pai — interactive particle profile preview"/>
 
 <br><br>
 
@@ -16,29 +6,33 @@
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0891B2&label=PROFILE+VIEWS" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=7C3AED&label=FOLLOWERS" alt="GitHub followers"/>
-<img src="https://img.shields.io/badge/OPEN_TO-LEARNING%20%26%20COLLABORATION-0F766E?style=for-the-badge" alt="Open to learning and collaboration"/>
+<a href="https://github.com/gireeshvpai2007-maker?tab=repositories"><img src="https://img.shields.io/badge/✦_Explore_my_projects-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Explore my GitHub projects"/></a> <a href="https://github.com/gireeshvpai2007-maker?tab=followers"><img src="https://img.shields.io/badge/✦_Follow_me-164E63?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="Follow me on GitHub"/></a>
 
-</div>
+<br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=20261104143747" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=20261104143747" />
-  <img alt="GitHub profile overview" src="dark_mode.svg?v=20261104143747" />
-</picture>
+<img src="https://komarev.com/ghpvc/?username=gireeshvpai2007-maker&style=for-the-badge&color=0891B2&label=PROFILE+VIEWS" alt="Profile views"/> <img src="https://img.shields.io/github/followers/gireeshvpai2007-maker?style=for-the-badge&color=7C3AED&label=FOLLOWERS" alt="GitHub followers"/> <img src="https://img.shields.io/github/stars/gireeshvpai2007-maker?style=for-the-badge&color=0E7490&label=STARS" alt="GitHub stars"/> <img src="https://img.shields.io/badge/OPEN_TO-LEARNING%20%26%20COLLABORATION-0F766E?style=for-the-badge" alt="Open to learning and collaboration"/>
 
----
+<br><br>
 
-## 👋 Hey, I'm Gireesh
+<sub> <a href="#-about-me"><b>About</b></a> &nbsp;✦&nbsp; <a href="#-featured-insightai"><b>Featured</b></a> &nbsp;✦&nbsp; <a href="#-selected-projects"><b>Projects</b></a> &nbsp;✦&nbsp; <a href="#%EF%B8%8F-tech-stack"><b>Stack</b></a> &nbsp;✦&nbsp; <a href="#-currently-learning"><b>Learning</b></a> &nbsp;✦&nbsp; <a href="#-github-analytics"><b>Analytics</b></a> &nbsp;✦&nbsp; <a href="#-lets-connect"><b>Connect</b></a> </sub> </div> <br> <picture> <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=20261104143747" /> <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=20261104143747" /> <img alt="GitHub profile overview" src="dark_mode.svg?v=20261104143747" /> </picture> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+👋 About me
 
-**Computer Science undergraduate at MIT Manipal** interested in building useful software, understanding systems from first principles, and applying AI to real problems.
+Computer Science undergraduate at MIT Manipal interested in building useful software, understanding systems from first principles, and applying AI to real problems.
 
 I enjoy moving between the fundamentals—data structures, algorithms, networking, and digital systems—and projects that put those concepts to work.
 
-<p align="center"><b>Currently focused on:</b> DSA · data analytics · computer vision · networking · digital systems</p>
+<div align="center">
+🎓 Studying	🔭 Focus	🧪 Research	🎯 Aiming for
+B.Tech CSE
+MIT Manipal	DSA · Data Analytics
+Computer Vision · Networking	MedVision-2D3D
+Medical imaging	AI / Software
+Engineering
 
-```cpp
+<b>Currently focused on:</b> DSA · data analytics · computer vision · networking · digital systems
+
+</div>
+cpp
 class Gireesh {
 public:
     string role = "Software Engineer in Progress";
@@ -55,230 +49,158 @@ public:
     string philosophy =
         "Understand the why. Build the thing. Improve it.";
 };
-```
-
-## 📊 Featured: InsightAI — Data Analytics
+<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+📊 Featured: InsightAI
+<img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-0E7490?style=flat-square" alt="Status: in progress"/> <img src="https://img.shields.io/badge/DOMAIN-DATA_ANALYTICS-7C3AED?style=flat-square" alt="Domain: data analytics"/> <img src="https://img.shields.io/badge/R²-0.8993-0F766E?style=flat-square" alt="R squared 0.8993"/> <img src="https://img.shields.io/badge/MAPE-5.31%25-164E63?style=flat-square" alt="MAPE 5.31 percent"/>
 
 My current data analytics project explores an end-to-end workflow for cleaning tabular data, performing exploratory analysis, evaluating regression models, and presenting results through a Streamlit dashboard.
 
-- **Current experiment:** house-price regression with Linear Regression (R² 0.8993; MAPE 5.31%).
-- **Workflow:** preprocessing → EDA → model evaluation → prediction/dashboard.
-- **Stack:** Python, Pandas, NumPy, scikit-learn, Streamlit.
+Current experiment: house-price regression with Linear Regression (R² 0.8993; MAPE 5.31%).
+Workflow: preprocessing → EDA → model evaluation → prediction / dashboard.
+Stack: Python, Pandas, NumPy, scikit-learn, Streamlit.
+<img src="https://skillicons.dev/icons?i=python,pandas,numpy,sklearn,streamlit"/>
 
-[Explore the InsightAI repository and README →](https://github.com/gireeshvpai2007-maker/InsightAI)
+Explore the InsightAI repository and README →
 
----
+<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+⚡ Selected projects
+<table> <tr> <td width="50%" valign="top">
+🦿 MedVision-2D3D
 
-## ⚡ Selected projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🦿 [MedVision-2D3D](https://github.com/gireeshvpai2007-maker/MedVision-2D3D)
-**Medical imaging research**
+<img src="https://img.shields.io/badge/RESEARCH-7C3AED?style=flat-square"/> <img src="https://img.shields.io/badge/MEDICAL_IMAGING-0E7490?style=flat-square"/>
 
 Exploring a knee-landmark pipeline as part of a research project focused on 2D-to-3D reconstruction.
 
-- 20-landmark heatmap generation
-- CNN-based landmark model
-- Heatmap decoding and coordinate handling
-- Dataset inspection and evaluation foundations
+20-landmark heatmap generation
+CNN-based landmark model
+Heatmap decoding and coordinate handling
+Dataset inspection and evaluation foundations
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv"/> </td> <td width="50%" valign="top">
+🌐 NetForge
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,opencv"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [NetForge](https://github.com/gireeshvpai2007-maker/NetForge)
-**Networking lab & packet analysis**
+<img src="https://img.shields.io/badge/NETWORKING-0E7490?style=flat-square"/> <img src="https://img.shields.io/badge/PACKET_ANALYSIS-164E63?style=flat-square"/>
 
 A hands-on networking project connecting protocol concepts with real packet-level experiments.
 
-- TCP client/server experiments
-- Packet inspection using TShark / Wireshark
-- Python-based packet analysis
-- Building toward connection tracking and routing concepts
+TCP client/server experiments
+Packet inspection using TShark / Wireshark
+Python-based packet analysis
+Building toward connection tracking and routing concepts
+<img src="https://skillicons.dev/icons?i=python,wireshark,linux"/> </td> </tr> <tr> <td width="50%" valign="top">
+📈 InsightAI
 
-<img src="https://skillicons.dev/icons?i=python,wireshark,linux"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📈 [InsightAI](https://github.com/gireeshvpai2007-maker/InsightAI)
-**AI-powered business analytics**
+<img src="https://img.shields.io/badge/IN_PROGRESS-0E7490?style=flat-square"/> <img src="https://img.shields.io/badge/ANALYTICS-7C3AED?style=flat-square"/>
 
 Turning tabular data into analysis, visualizations, predictive models, and actionable insights.
 
-- Data cleaning and feature engineering
-- Exploratory data analysis
-- Regression model evaluation
-- Interactive analytics dashboard in progress
+Data cleaning and feature engineering
+Exploratory data analysis
+Regression model evaluation
+Interactive analytics dashboard in progress
+<img src="https://skillicons.dev/icons?i=python,streamlit,sklearn,pandas,numpy"/> </td> <td width="50%" valign="top">
+🏏 T20 Match Analytics & Penalty Engine
 
-<img src="https://skillicons.dev/icons?i=python,streamlit,sklearn,pandas,numpy"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🏏 [T20 Match Analytics & Penalty Engine](https://github.com/gireeshvpai2007-maker/T20_Match_Analytics)
-**Verilog digital-systems project**
+<img src="https://img.shields.io/badge/DIGITAL_SYSTEMS-7C3AED?style=flat-square"/> <img src="https://img.shields.io/badge/VERILOG-0F766E?style=flat-square"/>
 
 A modular hardware design for cricket score tracking and live match-display logic.
 
-- Score aggregation and over-rate subtraction
-- Target comparison using a ripple-carry subtractor
-- Penalty trigger and display multiplexer
-- Integrated testbench and waveform-based verification
+Score aggregation and over-rate subtraction
+Target comparison using a ripple-carry subtractor
+Penalty trigger and display multiplexer
+Integrated testbench and waveform-based verification
+<img src="https://skillicons.dev/icons?i=verilog" alt="Verilog"/> </td> </tr> </table> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+🧩 More projects
+<table> <tr> <td width="50%" valign="top">
+🧠 Amchi
 
-<img src="https://skillicons.dev/icons?i=verilog" alt="Verilog"/>
+<img src="https://img.shields.io/badge/COMPILERS-7C3AED?style=flat-square"/> <img src="https://img.shields.io/badge/C++-0E7490?style=flat-square"/>
 
-</td>
-</tr>
-</table>
-
----
-
-## 🧩 More projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 [Amchi](https://github.com/gireeshvpai2007-maker/Amchi)
 A C++ language project inspired by GSB Konkani, exploring how programming languages work under the hood.
 
-- Lexer and token system
-- Recursive-descent parser
-- Abstract Syntax Tree (AST)
-- Variables, expressions, precedence
-- Conditional statements and output
+Lexer and token system
+Recursive-descent parser
+Abstract Syntax Tree (AST)
+Variables, expressions, precedence
+Conditional statements and output
+<img src="https://skillicons.dev/icons?i=cpp"/> </td> <td width="50%" valign="top">
+☕ StreamVault
 
-<img src="https://skillicons.dev/icons?i=cpp"/>
+<img src="https://img.shields.io/badge/OOP-0E7490?style=flat-square"/> <img src="https://img.shields.io/badge/JAVA-164E63?style=flat-square"/>
 
-</td>
-<td width="50%" valign="top">
-
-### ☕ [StreamVault](https://github.com/gireeshvpai2007-maker/OOP-Implementation)
 A Java media-library and recommendation project built to practice object-oriented design.
 
-- OOP and composition
-- Collections, generics, enums
-- Java Stream API
-- Factory-pattern concepts
+OOP and composition
+Collections, generics, enums
+Java Stream API
+Factory-pattern concepts
+<img src="https://skillicons.dev/icons?i=java"/> </td> </tr> <tr> <td width="50%" valign="top">
+🚌 Vishnu Tours & Travels
 
-<img src="https://skillicons.dev/icons?i=java"/>
+<img src="https://img.shields.io/badge/LIVE-0F766E?style=flat-square"/> <img src="https://img.shields.io/badge/REAL_CLIENT-7C3AED?style=flat-square"/>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚌 [Vishnu Tours & Travels](https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website)
 A responsive website for a real travel-agency business, with customer enquiry flows.
 
-- Responsive UI and dark mode
-- WhatsApp enquiry integration
-- Contact form and deployment
+Responsive UI and dark mode
+WhatsApp enquiry integration
+Contact form and deployment
 
-🌐 [View live website](https://vishnu-tours-travels.netlify.app)
+🌐 View live website →
 
-<img src="https://skillicons.dev/icons?i=html,css,js"/>
+<img src="https://skillicons.dev/icons?i=html,css,js"/> </td> <td width="50%" valign="top">
+📊 Data Visualisation
 
-</td>
-<td width="50%" valign="top">
+<img src="https://img.shields.io/badge/JUPYTER-164E63?style=flat-square"/> <img src="https://img.shields.io/badge/NLP_&_VISUALS-0E7490?style=flat-square"/>
 
-### 📊 [Data Visualisation](https://github.com/gireeshvpai2007-maker/Data-Visualisation)
 Python/Jupyter exploration of datasets, including emotion analysis and word-cloud visualization.
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Emotion%20Analysis/image/wordcloud.png" width="90%" alt="Emotion analysis word cloud"/>
-</p>
+<p align="center"> <img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Emotion%20Analysis/image/wordcloud.png" width="90%" alt="Emotion analysis word cloud"/> </p> <img src="https://skillicons.dev/icons?i=python,jupyter"/> </td> </tr> <tr> <td width="50%" valign="top">
+🌳 Data Structures
 
-<img src="https://skillicons.dev/icons?i=python,jupyter"/>
+<img src="https://img.shields.io/badge/DSA-7C3AED?style=flat-square"/> <img src="https://img.shields.io/badge/C_/_C++-0E7490?style=flat-square"/>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌳 [Data Structures](https://github.com/gireeshvpai2007-maker/DataStructures)
 Implementations and practice focused on core programming and interview fundamentals.
 
-- Arrays, strings, linked lists
-- Stacks, queues, recursion
-- Binary trees and BSTs
-- Searching, sorting, and algorithms
+Arrays, strings, linked lists
+Stacks, queues, recursion
+Binary trees and BSTs
+Searching, sorting, and algorithms
+<img src="https://skillicons.dev/icons?i=c,cpp"/> </td> <td width="50%" valign="top">
+💻 freeCodeCamp Projects
 
-<img src="https://skillicons.dev/icons?i=c,cpp"/>
+<img src="https://img.shields.io/badge/WEB_BASICS-164E63?style=flat-square"/> <img src="https://img.shields.io/badge/FRONTEND-0E7490?style=flat-square"/>
 
-</td>
-<td width="50%" valign="top">
-
-### 💻 [freeCodeCamp Projects](https://github.com/gireeshvpai2007-maker/FreeCodeCamp)
 Web development projects and exercises completed while learning frontend fundamentals.
 
-- HTML and responsive CSS
-- JavaScript challenges
-- Responsive website layouts
+HTML and responsive CSS
+JavaScript challenges
+Responsive website layouts
+<img src="https://skillicons.dev/icons?i=html,css,js"/> </td> </tr> </table> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+🛠️ Tech stack
+<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1600&color=67E8F9&center=true&vCenter=true&width=520&lines=TOOLS+I+BUILD+WITH;LANGUAGES+%E2%86%92+DATA+%E2%86%92+SYSTEMS;ALWAYS+LEARNING%2C+ALWAYS+BUILDING" alt="Animated tech stack heading"/> <br>
 
-<img src="https://skillicons.dev/icons?i=html,css,js"/>
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Tech stack
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1600&color=67E8F9&center=true&vCenter=true&width=520&lines=TOOLS+I+BUILD+WITH;LANGUAGES+%E2%86%92+DATA+%E2%86%92+SYSTEMS;ALWAYS+LEARNING%2C+ALWAYS+BUILDING" alt="Animated tech stack heading"/>
-
-<br>
-
-**LANGUAGES**
+LANGUAGES
 
 <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,html,css,sql&perline=8" alt="C, C++, Java, Python, JavaScript, HTML, CSS, SQL"/>
 
-**AI · DATA · WEB**
+AI · DATA · WEB
 
 <img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,pandas,numpy,matplotlib,streamlit,flask&perline=8" alt="PyTorch, OpenCV, scikit-learn, pandas, NumPy, Matplotlib, Streamlit, Flask"/>
 
-**TOOLS · SYSTEMS · WORKFLOW**
+TOOLS · SYSTEMS · WORKFLOW
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash&perline=6" alt="Git, GitHub, VS Code, Linux, MySQL, Bash"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/HDL-Verilog-7C3AED?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog"/>
-<img src="https://img.shields.io/badge/Simulation-Icarus%20Verilog%20%7C%20GTKWave-0E7490?style=for-the-badge" alt="Icarus Verilog and GTKWave"/>
-<img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20TShark%20%7C%20Wireshark-0E7490?style=for-the-badge&logo=wireshark&logoColor=white" alt="Networking tools"/>
-<img src="https://img.shields.io/badge/EDA-Pandas%20%7C%20NumPy%20%7C%20Matplotlib-0F766E?style=for-the-badge" alt="EDA tools"/>
-
-</div>
-
----
-
-## 🧭 Currently learning
-
-- **DSA:** binary trees, BST validation, traversal patterns, complexity analysis, and interview problem-solving
-- **Machine learning:** model evaluation, feature engineering, and practical experimentation
-- **Computer vision:** landmark heatmaps, coordinate decoding, and model evaluation
-- **Computer networks:** TCP connection tracking, packet analysis, and routing protocols
-- **Digital systems:** sequential logic and Verilog simulation
-- **Language implementation:** parsing, ASTs, and interpreter design
-
----
-
-## 📊 GitHub analytics
-
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash&perline=6" alt="Git, GitHub, VS Code, Linux, MySQL, Bash"/> <br> <img src="https://img.shields.io/badge/HDL-Verilog-7C3AED?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog"/> <img src="https://img.shields.io/badge/Simulation-Icarus%20Verilog%20%7C%20GTKWave-0E7490?style=for-the-badge" alt="Icarus Verilog and GTKWave"/> <img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20TShark%20%7C%20Wireshark-0E7490?style=for-the-badge&logo=wireshark&logoColor=white" alt="Networking tools"/> <img src="https://img.shields.io/badge/EDA-Pandas%20%7C%20NumPy%20%7C%20Matplotlib-0F766E?style=for-the-badge" alt="EDA tools"/> </div> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+🧭 Currently learning
 <div align="center">
-
-<img width="49%" src="./profile/stats.svg" alt="GitHub Stats"/>
-<img width="49%" src="./profile/top-langs.svg" alt="Top Languages"/>
+Area	What I'm working on
+🌲 DSA	Binary trees, BST validation, traversal patterns, complexity analysis, interview problem-solving
+🤖 Machine learning	Model evaluation, feature engineering, practical experimentation
+👁️ Computer vision	Landmark heatmaps, coordinate decoding, model evaluation
+🌐 Computer networks	TCP connection tracking, packet analysis, routing protocols
+🔌 Digital systems	Sequential logic and Verilog simulation
+🧠 Language implementation	Parsing, ASTs, and interpreter design
+</div> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+📊 GitHub analytics
+<div align="center"> <img width="49%" src="./profile/stats.svg" alt="GitHub Stats"/> <img width="49%" src="./profile/top-langs.svg" alt="Top Languages"/>
 
 <br><br>
 
@@ -286,29 +208,24 @@ Web development projects and exercises completed while learning frontend fundame
 
 <br><br>
 
-<h3>Activity over time</h3>
-<img src="./assets/activity-graph.svg" alt="GitHub contribution activity line graph" width="96%"/>
+<h3>Activity over time</h3> <img src="./assets/activity-graph.svg" alt="GitHub contribution activity line graph" width="96%"/>
 
 <br><br>
 
-<h3>Contribution journey</h3>
-<img src="./assets/contribution-journey.svg" alt="GitHub contribution journey" width="96%"/>
-
-</div>
-
----
-
-## 🐍 Keep the commits coming
-
+<h3>Contribution journey</h3> <img src="./assets/contribution-journey.svg" alt="GitHub contribution journey" width="96%"/> </div> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+🐍 Keep the commits coming
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"/> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg"/> <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" width="95%"/> </picture> </div> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+🤝 Let's connect
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake.svg"/>
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/gireeshvpai2007-maker/gireeshvpai2007-maker/output/github-contribution-grid-snake-dark.svg" width="95%"/>
-</picture>
+
+Open to collaborating on projects in AI/ML, data analytics, computer vision, and systems, and always happy to learn from other developers.
+
+<a href="https://github.com/gireeshvpai2007-maker"><img src="https://img.shields.io/badge/GitHub-gireeshvpai2007--maker-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="GitHub"/></a>
+
+<!-- Add your own links below, then remove the comment markers: <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-0E7490?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-Say_Hello-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a> -->
 
 <br><br>
 
 <i>Understand the why. Build the thing. Improve it.</i>
 
-</div>
+</div> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:0F172A,35:164E63,70:0E7490,100:7C3AED&animation=twinkling"/>
