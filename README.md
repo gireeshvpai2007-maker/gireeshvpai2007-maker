@@ -23,17 +23,20 @@
 
 ## 👋 About me
 
-I'm a **Computer Science undergraduate at MIT Manipal** interested in building useful software, understanding systems from first principles, and applying AI to real problems.
+I'm **Gireesh V Pai**, a Computer Science undergraduate at **MIT Manipal**, building my foundation in software engineering through coursework, hands-on projects, and research-oriented exploration. I’m interested in how software works beneath the surface—from data structures and algorithms to networks and digital systems—and how those fundamentals can be used to solve practical problems.
 
-I enjoy moving between fundamentals—data structures, algorithms, networking, and digital systems—and projects that put those concepts to work.
+My projects span a few areas: **InsightAI** explores data analysis and predictive modelling; **MedVision** is my computer-vision research work around knee-landmark detection and 2D-to-3D reconstruction; **NetForge** lets me experiment with TCP networking and packet analysis; and my Verilog work helps me understand digital logic through simulation. I also enjoy building useful web tools and exploring language implementation through **Amchi**, a C++ project inspired by GSB Konkani.
 
-> **Currently focused on:** DSA · data analytics · computer vision · networking · digital systems
+I’m especially drawn to work that combines careful problem-solving with real implementation. I like understanding *why* a solution works, testing it, and improving it—not just getting it to run. Right now, I’m strengthening my DSA and programming fundamentals while continuing to learn across AI/ML, data analytics, computer vision, networking, and digital systems.
+
+> **What I’m working toward:** becoming a strong software engineer who can build thoughtful, reliable systems and keep learning across disciplines.
 
 ```cpp
 class Gireesh {
 public:
-    string role = "Software Engineer in Progress";
+    string role = "Computer Science Student | Aspiring Software Engineer";
     string university = "MIT Manipal";
+    string interests = "Software, AI, data, systems, and research";
     string philosophy = "Understand the why. Build the thing. Improve it.";
 };
 ```
