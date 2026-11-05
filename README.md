@@ -233,28 +233,32 @@ Web development projects and exercises completed while learning frontend fundame
 
 ## 🛠️ Tech stack
 
-<p align="center">
-  <strong>LANGUAGES</strong><br><br>
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,html,css,sql" alt="C, C++, Java, Python, JavaScript, HTML, CSS, SQL"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>AI · DATA · WEB</strong><br><br>
-  <img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,pandas,numpy,matplotlib,streamlit,flask" alt="PyTorch, OpenCV, scikit-learn, pandas, NumPy, Matplotlib, Streamlit, Flask"/>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1600&color=67E8F9&center=true&vCenter=true&width=520&lines=TOOLS+I+BUILD+WITH;LANGUAGES+%E2%86%92+DATA+%E2%86%92+SYSTEMS;ALWAYS+LEARNING%2C+ALWAYS+BUILDING" alt="Animated tech stack heading"/>
 
-<p align="center">
-  <strong>TOOLS · SYSTEMS · WORKFLOW</strong><br><br>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash" alt="Git, GitHub, VS Code, Linux, MySQL, Bash"/><br><br>
-  <img src="https://img.shields.io/badge/HDL-Verilog-7C3AED?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Simulation-Icarus%20Verilog%20%7C%20GTKWave-0E7490?style=flat-square"/>
-</p>
+<br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20TShark%20%7C%20Wireshark-0E7490?style=flat-square&logo=wireshark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Workflow-Git%20%7C%20GitHub%20Actions-7C3AED?style=flat-square&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/EDA-Pandas%20%7C%20NumPy%20%7C%20Matplotlib-0F766E?style=flat-square"/>
-</p>
+**LANGUAGES**
+
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,html,css,sql&perline=8" alt="C, C++, Java, Python, JavaScript, HTML, CSS, SQL"/>
+
+**AI · DATA · WEB**
+
+<img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,pandas,numpy,matplotlib,streamlit,flask&perline=8" alt="PyTorch, OpenCV, scikit-learn, pandas, NumPy, Matplotlib, Streamlit, Flask"/>
+
+**TOOLS · SYSTEMS · WORKFLOW**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash&perline=6" alt="Git, GitHub, VS Code, Linux, MySQL, Bash"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/HDL-Verilog-7C3AED?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog"/>
+<img src="https://img.shields.io/badge/Simulation-Icarus%20Verilog%20%7C%20GTKWave-0E7490?style=for-the-badge" alt="Icarus Verilog and GTKWave"/>
+<img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20TShark%20%7C%20Wireshark-0E7490?style=for-the-badge&logo=wireshark&logoColor=white" alt="Networking tools"/>
+<img src="https://img.shields.io/badge/EDA-Pandas%20%7C%20NumPy%20%7C%20Matplotlib-0F766E?style=for-the-badge" alt="EDA tools"/>
+
+</div>
 
 ---
 
