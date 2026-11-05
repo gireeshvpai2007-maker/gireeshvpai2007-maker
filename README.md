@@ -21,23 +21,29 @@
 
 ---
 
-## 👋 About me
+## 👋 Hey, I'm Gireesh
 
-I'm **Gireesh V Pai**, a Computer Science undergraduate at **MIT Manipal**, building my foundation in software engineering through coursework, hands-on projects, and research-oriented exploration. I’m interested in how software works beneath the surface—from data structures and algorithms to networks and digital systems—and how those fundamentals can be used to solve practical problems.
+**Computer Science undergraduate at MIT Manipal** interested in building useful software, understanding systems from first principles, and applying AI to real problems.
 
-My projects span a few areas: **InsightAI** explores data analysis and predictive modelling; **MedVision** is my computer-vision research work around knee-landmark detection and 2D-to-3D reconstruction; **NetForge** lets me experiment with TCP networking and packet analysis; and my Verilog work helps me understand digital logic through simulation. I also enjoy building useful web tools and exploring language implementation through **Amchi**, a C++ project inspired by GSB Konkani.
+I enjoy moving between the fundamentals—data structures, algorithms, networking, and digital systems—and projects that put those concepts to work.
 
-I’m especially drawn to work that combines careful problem-solving with real implementation. I like understanding *why* a solution works, testing it, and improving it—not just getting it to run. Right now, I’m strengthening my DSA and programming fundamentals while continuing to learn across AI/ML, data analytics, computer vision, networking, and digital systems.
-
-> **What I’m working toward:** becoming a strong software engineer who can build thoughtful, reliable systems and keep learning across disciplines.
+<p align="center"><b>Currently focused on:</b> DSA · data analytics · computer vision · networking · digital systems</p>
 
 ```cpp
 class Gireesh {
 public:
-    string role = "Computer Science Student | Aspiring Software Engineer";
+    string role = "Software Engineer in Progress";
     string university = "MIT Manipal";
-    string interests = "Software, AI, data, systems, and research";
-    string philosophy = "Understand the why. Build the thing. Improve it.";
+    vector<string> focus = {
+        "Data Structures & Algorithms",
+        "AI / ML and Data Analytics",
+        "Computer Vision Research",
+        "Networking and Systems",
+        "Compiler Fundamentals"
+    };
+
+    string philosophy =
+        "Understand the why. Build the thing. Improve it.";
 };
 ```
 
