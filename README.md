@@ -176,19 +176,47 @@ JavaScript challenges
 Responsive website layouts
 <img src="https://skillicons.dev/icons?i=html,css,js"/> </td> </tr> </table> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
 🛠️ Tech stack
-<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1600&color=67E8F9&center=true&vCenter=true&width=520&lines=TOOLS+I+BUILD+WITH;LANGUAGES+%E2%86%92+DATA+%E2%86%92+SYSTEMS;ALWAYS+LEARNING%2C+ALWAYS+BUILDING" alt="Animated tech stack heading"/> <br>
 
-LANGUAGES
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1700&color=67E8F9&center=true&vCenter=true&width=560&lines=MY+EVER-EVOLVING+TOOLKIT;LANGUAGES+%E2%86%92+DATA+%E2%86%92+SYSTEMS;LEARN.+BUILD.+REFINE." alt="Animated tech stack heading"/>
+
+<br>
+
+<img width="90%" src="https://capsule-render.vercel.app/api?type=rect&height=3&section=header&color=0:22D3EE,45:0E7490,100:8B5CF6" alt="Cyan to violet accent divider"/>
+
+<h3>⌘ &nbsp; LANGUAGES</h3>
 
 <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,html,css,sql&perline=8" alt="C, C++, Java, Python, JavaScript, HTML, CSS, SQL"/>
 
-AI · DATA · WEB
+<br>
+
+<img width="70%" src="https://capsule-render.vercel.app/api?type=rect&height=2&section=header&color=0:164E63,50:0E7490,100:7C3AED" alt="Section accent"/>
+
+<h3>✦ &nbsp; AI · DATA · WEB</h3>
 
 <img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn,pandas,numpy,matplotlib,streamlit,flask&perline=8" alt="PyTorch, OpenCV, scikit-learn, pandas, NumPy, Matplotlib, Streamlit, Flask"/>
 
-TOOLS · SYSTEMS · WORKFLOW
+<br>
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash&perline=6" alt="Git, GitHub, VS Code, Linux, MySQL, Bash"/> <br> <img src="https://img.shields.io/badge/HDL-Verilog-7C3AED?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog"/> <img src="https://img.shields.io/badge/Simulation-Icarus%20Verilog%20%7C%20GTKWave-0E7490?style=for-the-badge" alt="Icarus Verilog and GTKWave"/> <img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20TShark%20%7C%20Wireshark-0E7490?style=for-the-badge&logo=wireshark&logoColor=white" alt="Networking tools"/> <img src="https://img.shields.io/badge/EDA-Pandas%20%7C%20NumPy%20%7C%20Matplotlib-0F766E?style=for-the-badge" alt="EDA tools"/> </div> <img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
+<img width="70%" src="https://capsule-render.vercel.app/api?type=rect&height=2&section=header&color=0:164E63,50:0E7490,100:7C3AED" alt="Section accent"/>
+
+<h3>⚙️ &nbsp; TOOLS · SYSTEMS · WORKFLOW</h3>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,bash&perline=6" alt="Git, GitHub, VS Code, Linux, MySQL, Bash"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/HDL-Verilog-7C3AED?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog"/>
+<img src="https://img.shields.io/badge/Simulation-Icarus%20Verilog%20%7C%20GTKWave-0E7490?style=for-the-badge" alt="Icarus Verilog and GTKWave"/>
+<img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20TShark%20%7C%20Wireshark-164E63?style=for-the-badge&logo=wireshark&logoColor=white" alt="Networking tools"/>
+<img src="https://img.shields.io/badge/EDA-Pandas%20%7C%20NumPy%20%7C%20Matplotlib-0F766E?style=for-the-badge" alt="EDA tools"/>
+
+<br>
+<img width="90%" src="https://capsule-render.vercel.app/api?type=rect&height=3&section=footer&color=0:8B5CF6,50:0E7490,100:22D3EE" alt="Violet to cyan accent divider"/>
+
+</div>
+<img width="100%" height="2" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:164E63,50:0E7490,100:7C3AED"/>
 🧭 Currently learning
 <div align="center">
 Area	What I'm working on
