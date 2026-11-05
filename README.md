@@ -60,60 +60,159 @@ An analytics prototype for exploring tabular data, performing EDA, evaluating re
 <tr>
 <td width="50%" valign="top">
 
-### [🦿 MedVision-2D3D](https://github.com/gireeshvpai2007-maker/MedVision-2D3D)
-**Computer-vision research**
+### 🦿 [MedVision-2D3D](https://github.com/gireeshvpai2007-maker/MedVision-2D3D)
+**Medical imaging research**
 
-Developing a multi-view knee-landmark pipeline as a step toward 2D-to-3D reconstruction.
+Exploring a knee-landmark pipeline as part of a research project focused on 2D-to-3D reconstruction.
 
-<a href="https://github.com/gireeshvpai2007-maker/MedVision-2D3D">View repository →</a>
+- 20-landmark heatmap generation
+- CNN-based landmark model
+- Heatmap decoding and coordinate handling
+- Dataset inspection and evaluation foundations
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv" alt="Python, PyTorch, OpenCV"/>
 
 </td>
 <td width="50%" valign="top">
 
-### [🌐 NetForge](https://github.com/gireeshvpai2007-maker/NetForge)
-**Networking & packet analysis**
+### 🌐 [NetForge](https://github.com/gireeshvpai2007-maker/NetForge)
+**Networking lab & packet analysis**
 
-TCP client/server experiments and Python-based packet inspection using TShark/Wireshark.
+A hands-on networking project connecting protocol concepts with real packet-level experiments.
 
-<a href="https://github.com/gireeshvpai2007-maker/NetForge">View repository →</a>
+- TCP client/server experiments
+- Packet inspection using TShark / Wireshark
+- Python-based packet analysis
+- Building toward connection tracking and routing concepts
+
+<img src="https://skillicons.dev/icons?i=python,wireshark,linux" alt="Python, Wireshark, Linux"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [🏏 T20 Match Analytics & Penalty Engine](https://github.com/gireeshvpai2007-maker/T20_Match_Analytics)
-**Digital systems in Verilog**
+### 📈 [InsightAI](https://github.com/gireeshvpai2007-maker/InsightAI)
+**AI-powered business analytics**
 
-Modular score logic, target comparison, penalty trigger, display mux, and simulation testbench.
+Turning tabular data into analysis, visualizations, predictive models, and actionable insights.
 
-<a href="https://github.com/gireeshvpai2007-maker/T20_Match_Analytics">View repository →</a>
+- Data cleaning and feature engineering
+- Exploratory data analysis
+- Regression model evaluation
+- Interactive analytics dashboard in progress
+
+<img src="https://skillicons.dev/icons?i=python,streamlit,sklearn,pandas,numpy" alt="Python, Streamlit, scikit-learn, pandas, NumPy"/>
 
 </td>
 <td width="50%" valign="top">
 
-### [🧠 Amchi](https://github.com/gireeshvpai2007-maker/Amchi)
-**Language implementation**
+### 🏏 [T20 Match Analytics & Penalty Engine](https://github.com/gireeshvpai2007-maker/T20_Match_Analytics)
+**Verilog digital-systems project**
 
-A C++ language project inspired by GSB Konkani, exploring tokens, parsing, and ASTs.
+A modular hardware design for cricket score tracking and live match-display logic.
 
-<a href="https://github.com/gireeshvpai2007-maker/Amchi">View repository →</a>
+- Score aggregation and over-rate subtraction
+- Target comparison using a ripple-carry subtractor
+- Penalty trigger and display multiplexer
+- Integrated testbench and waveform-based verification
+
+<img src="https://skillicons.dev/icons?i=verilog" alt="Verilog"/>
 
 </td>
 </tr>
 </table>
 
+---
+
 ## 🧩 More projects
 
-| Project | Focus |
-|---|---|
-| [StreamVault](https://github.com/gireeshvpai2007-maker/OOP-Implementation) | Java OOP, media library, collections, and Stream API |
-| [Vishnu Tours & Travels](https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website) · [Live site](https://vishnu-tours-travels.netlify.app/) | Responsive business website and enquiry flow |
-| [Data Visualisation](https://github.com/gireeshvpai2007-maker/Data-Visualisation) | Python/Jupyter EDA and visualizations |
-| [Data Structures](https://github.com/gireeshvpai2007-maker/DataStructures) | C/C++ data structures and algorithm practice |
-| [FreeCodeCamp](https://github.com/gireeshvpai2007-maker/FreeCodeCamp) | Frontend exercises and projects |
-| [M#2026 — FellaRide](https://github.com/gireeshvpai2007-maker/M-2026) | Hackathon carpooling concept |
-| [Digital Systems & Computer Organization](https://github.com/gireeshvpai2007-maker/Digital-System-and-Computer-Organization) | Digital logic and computer organization practice |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 [Amchi](https://github.com/gireeshvpai2007-maker/Amchi)
+A C++ language project inspired by GSB Konkani, exploring how programming languages work under the hood.
+
+- Lexer and token system
+- Recursive-descent parser
+- Abstract Syntax Tree (AST)
+- Variables, expressions, precedence
+- Conditional statements and output
+
+<img src="https://skillicons.dev/icons?i=cpp" alt="C++"/>
+
+</td>
+<td width="50%" valign="top">
+
+### ☕ [StreamVault](https://github.com/gireeshvpai2007-maker/OOP-Implementation)
+A Java media-library and recommendation project built to practice object-oriented design.
+
+- OOP and composition
+- Collections, generics, enums
+- Java Stream API
+- Factory-pattern concepts
+
+<img src="https://skillicons.dev/icons?i=java" alt="Java"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🚌 [Vishnu Tours & Travels](https://github.com/gireeshvpai2007-maker/Vishnu-Tours-Travels-Website)
+A responsive website for a real travel-agency business, with customer enquiry flows.
+
+- Responsive UI and dark mode
+- WhatsApp enquiry integration
+- Contact form and deployment
+
+🌐 [View live website](https://vishnu-tours-travels.netlify.app)
+
+<img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML, CSS, JavaScript"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 [Data Visualisation](https://github.com/gireeshvpai2007-maker/Data-Visualisation)
+Python/Jupyter exploration of datasets, including emotion analysis and word-cloud visualization.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/gireeshvpai2007-maker/Data-Visualisation/main/Emotion%20Analysis/image/wordcloud.png" width="90%" alt="Emotion analysis word cloud"/>
+</p>
+
+<img src="https://skillicons.dev/icons?i=python,jupyter" alt="Python, Jupyter"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌳 [Data Structures](https://github.com/gireeshvpai2007-maker/DataStructures)
+Implementations and practice focused on core programming and interview fundamentals.
+
+- Arrays, strings, linked lists
+- Stacks, queues, recursion
+- Binary trees and BSTs
+- Searching, sorting, and algorithms
+
+<img src="https://skillicons.dev/icons?i=c,cpp" alt="C, C++"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 💻 [freeCodeCamp Projects](https://github.com/gireeshvpai2007-maker/FreeCodeCamp)
+Web development projects and exercises completed while learning frontend fundamentals.
+
+- HTML and responsive CSS
+- JavaScript challenges
+- Responsive website layouts
+
+<img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML, CSS, JavaScript"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
