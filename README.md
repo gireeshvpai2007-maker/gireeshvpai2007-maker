@@ -36,6 +36,8 @@
 
 I enjoy moving between the fundamentals—data structures, algorithms, networking, and digital systems—and projects that put those concepts to work.
 
+<p align="center"><b>Currently focused on:</b> DSA · data analytics · computer vision · networking · digital systems</p>
+
 ```cpp
 class Gireesh {
 public:
@@ -67,7 +69,7 @@ My current data analytics project explores an end-to-end workflow for cleaning t
 
 ---
 
-## ⚡ What I'm building now
+## ⚡ Selected projects
 
 <table>
 <tr>
