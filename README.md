@@ -14,9 +14,9 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=20261113143850"/>
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=20261113143850"/>
-  <img alt="GitHub profile overview" src="dark_mode.svg?v=20261113143850"/>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=20261114133604"/>
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=20261114133604"/>
+  <img alt="GitHub profile overview" src="dark_mode.svg?v=20261114133604"/>
 </picture>
 
 ---
