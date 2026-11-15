@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="190" viewBox="0 0 1100 190" role="img" aria-labelledby="t d">
+<title id="t">Let's build something meaningful</title><desc id="d">A compact invitation to collaborate on software, AI, data, computer vision, and systems projects.</desc>
+<defs><linearGradient id="g"><stop stop-color="#0e7490"/><stop offset=".55" stop-color="#164e63"/><stop offset="1" stop-color="#6d28d9"/></linearGradient></defs>
+<rect width="1100" height="190" rx="22" fill="#0b1224"/><rect x="1" y="1" width="1098" height="188" rx="21" fill="none" stroke="url(#g)" stroke-width="2"/>
+<circle cx="1000" cy="95" r="95" fill="#164e63" opacity=".18"/><circle cx="1000" cy="95" r="65" fill="none" stroke="#22d3ee" opacity=".35"/><path d="M965 95h70m-35-35v70" stroke="#22d3ee" opacity=".35"/>
+<g font-family="Arial,sans-serif"><text x="52" y="61" fill="#67e8f9" font-size="14" letter-spacing="4">OPEN TO COLLABORATION</text><text x="52" y="108" fill="#f8fafc" font-size="34" font-weight="700">Let's build something meaningful.</text><text x="54" y="145" fill="#cbd5e1" font-size="17">AI / ML · Data Analytics · Computer Vision · Systems</text><text x="1000" y="108" fill="#67e8f9" font-size="42" font-weight="700" text-anchor="middle">↗</text></g></svg>
