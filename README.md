@@ -19,6 +19,11 @@
   <img alt="GitHub profile overview" src="dark_mode.svg?v=20261115135900"/>
 </picture>
 
+
+<div align="center">
+<img src="./assets/identity-panel.svg?v=1" width="100%" alt="Gireesh V Pai — developer identity"/>
+</div>
+
 ---
 
 ## 👋 Hey, I'm Gireesh
@@ -228,6 +233,12 @@ Web development projects and exercises completed while learning frontend fundame
 ## 🛠️ Tech stack
 
 <div align="center">
+<img src="./assets/stack-orbit.svg?v=1" width="100%" alt="Technology focus areas: languages, AI and data, systems, and toolkit"/>
+</div>
+
+## 🛠️ Tech stack
+
+<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1700&color=67E8F9&center=true&vCenter=true&width=560&lines=MY+EVER-EVOLVING+TOOLKIT;LANGUAGES+%E2%86%92+DATA+%E2%86%92+SYSTEMS;LEARN.+BUILD.+REFINE." alt="Animated tech stack heading"/>
 
@@ -300,6 +311,8 @@ Web development projects and exercises completed while learning frontend fundame
 ## 🤝 Let's connect
 
 <div align="center">
+
+<img src="./assets/connect-panel.svg?v=1" width="100%" alt="Let's build something meaningful"/>
 
 Open to collaborating on AI/ML, data analytics, computer vision, and systems projects.
 
